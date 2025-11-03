@@ -1,7 +1,5 @@
 # Checklist Compilazione Documenti PMLC
 
-Spunta le caselle man mano che completi i deliverable nelle cartelle `1_Descrizione_Approccio` e `2_Documentazione_Progetto`. L'etichetta indica se il documento è richiesto (*Obbligatorio*) o può essere omesso dalla consegna finale (*Facoltativo*), pur descrivendo comunque il relativo processo nell'approccio.
-
 ## Documentazione trasversale
 - [ ] `1_Descrizione_Approccio/00_Indice_e_Sintesi_Approccio.md` — Obbligatorio
 

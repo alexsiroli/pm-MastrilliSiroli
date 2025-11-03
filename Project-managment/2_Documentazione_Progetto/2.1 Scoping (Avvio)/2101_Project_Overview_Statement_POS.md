@@ -14,87 +14,89 @@ Scopo: autorizzazione iniziale del progetto digitale “Ziradò”, app mobile p
 ---
 
 ## 1) Problema / Opportunità
-**Problema**  
-A Cesena manca una piattaforma digitale unica, facile da usare e sempre aggiornata per scoprire eventi, attività e locali; ciò riduce visibilità, presenze e ricavi di enti pubblici e privati.
+**Problema condiviso**  
+Cesena non dispone di un canale digitale unico, affidabile e aggiornato per scoprire eventi, attività e locali: la conseguenza è una bassa visibilità per gli operatori, minori presenze e ricavi, scarsa integrazione tra iniziative pubbliche e private.
 
-**Opportunità**  
-Centralizzare l’offerta territoriale in un’unica app per incrementare partecipazione, spesa locale e attrattività turistica.
+**Opportunità di business**  
+Creare un hub mobile che concentri l’offerta territoriale in un’unica esperienza, aumentando la partecipazione cittadina, l’attrattività turistica e i flussi economici verso gli esercenti.
 
 ## 2) Goal del Progetto
-Progettare, sviluppare e lanciare entro **luglio 2026** un’app mobile che concentri in un’unica interfaccia eventi, offerte e recensioni, aumentando l’engagement di residenti e turisti e generando nuovi flussi di ricavo per gli operatori locali.
+Entro il **31 luglio 2026** lanciare Ziradò, app mobile per iOS e Android che aggrega eventi, offerte e recensioni dei locali di Cesena, abilitando decisioni data-driven per sponsor e partner e garantendo al Project Manager l’autorità di coordinare risorse e stakeholder.
 
-### 2.1 Value Proposition (discorsiva)
-Per cittadini e turisti: un’unica app affidabile per scoprire cosa fare in città, con suggerimenti personalizzati e informazioni aggiornate senza dover consultare molteplici canali. Per gli esercenti: visibilità costante, strumenti semplici per promuovere eventi/offerte e metriche sull’engagement. Per la città: un hub digitale che favorisce partecipazione, coordinamento e ricadute economiche positive.
+*Value Proposition sintetica*  
+Un’unica app affidabile per residenti e turisti (discovery time ridotto, suggerimenti pertinenti) e un canale continuativo per esercenti e Comune (visibilità, insight di engagement, strumenti promozionali a basso costo).
 
-## 3) Obiettivi (SMART)
-- Rilasciare un’app mobile (**iOS + Android**) entro il **31 luglio 2026**, con pubblicazione sugli store principali.
-- Includere almeno quattro funzioni core al go-live:
-  - mappa interattiva geolocalizzata;
-  - calendario eventi con filtri e reminder;
-  - coupon/offerte attivabili tramite app;
-  - recensioni per ogni tipologia di attività.
-- Coinvolgere il 75% dei locali del centro storico entro 12 mesi dal rilascio.
-- Ottenere almeno 5.000 download e una media recensioni ≥ 4.0/5 su entrambi gli store nei primi 12 mesi.
-- Raggiungere parità costi-ricavi entro 12 mesi dal lancio commerciale.
+## 3) Obiettivi (criteri S.M.A.R.T.)
+- **Lancio sugli store entro il 31/07/2026** — pubblicazione approvata su App Store e Google Play; Owner: Alex Siroli (PM); Misura: data di GO/NO-GO e release effettiva.
+- **Funzionalità core complete al go-live** — mappa geolocalizzata, calendario filtrabile, coupon riscattabili e recensioni attive con usabilità certificata SUS ≥ 80; Owner: Team sviluppo (Alice Mastrilli); Misura: checklist di accettazione e report UT.
+- **Onboarding esercenti** — 75% dei locali del centro storico attivi sulla piattaforma entro 12 mesi dal lancio; Owner: Responsabile partnership; Misura: numero esercenti registrati vs. totale censito.
+- **Adozione utenti finali** — almeno 5.000 download cumulati e rating medio ≥ 4.0/5 nei primi 12 mesi; Owner: Marketing/Comunicazione; Misura: store analytics e dashboard recensioni.
+- **Sostenibilità economica** — raggiungere break-even entro 12 mesi tramite ricavi da sponsorship, abbonamenti premium e advertising; Owner: Sponsor + PM; Misura: margine operativo cumulato ≥ 0 €.
 
-## 4) Criteri di Successo (IRACIS + KPI)
-- Engagement territoriale: aumento del 20% della partecipazione media agli eventi gestiti attraverso Ziradò entro 6 mesi dal lancio.
-- Copertura funzionale: l’app mobile include tutte le funzionalità chiave previste dal documento dei requisiti (mappa, calendario, coupon, recensioni) con livello di usabilità certificato da test UT ≥ 80 SUS.
-- Sostenibilità economica: entro un anno dal rilascio si prevede un fatturato minimo di €10.000 derivante da:
-  - abbonamenti premium per i locali (statistiche aggiuntive, coupon sconto, visibilità maggiore);
-  - eventi sponsorizzati dai locali e pacchetti promo;
-  - sponsor e pubblicità in-app.
-- Increase Revenue: redemption coupon ≥ 5% e upsell su abbonamenti premium → convalida del modello di business.
-- Avoid Cost: riduzione del tempo di ricerca informazioni misurata con NPS ≥ 30 e soddisfazione utenti ≥ 4/5.
-- Improve Service: app unica con mappe/eventi/recensioni, retention D30 ≥ 25%.
+## 4) Criteri di Successo (IRACIS & KPI)
+- **Increased Revenue** — €10.000 di ricavi entro il primo anno, con redemption coupon ≥ 5% e almeno 10 esercenti in abbonamento premium.
+- **Avoided Cost** — ridurre del 40% il tempo medio di ricerca di eventi rispetto alla baseline (survey pre-post) e ottenere NPS ≥ 30.
+- **Improved Service** — crescita del 20% della partecipazione media agli eventi pubblicati via Ziradò nei primi 6 mesi; retention D30 ≥ 25%.
+- **Soddisfazione stakeholder** — sponsor e Comune confermano il rinnovo del supporto annuale dopo la review Q4 2026; rating di soddisfazione ≥ 4/5.
 
-## 5) Soluzione di Alto Livello e Alternative
-- Soluzione: app mobile cross-platform con backend API e admin portal; mappa interattiva, calendario eventi, coupon e recensioni integrate al lancio; notifiche push e personalizzazione contenuti in roadmap; infrastruttura cloud gestita per scalabilità.
-- Alternative: sito web mobile-first; canali social o newsletter aggregatrici; la scelta app è motivata da un miglior supporto a geolocalizzazione, notifiche e discoverability sugli store.
+## 5) Assunzioni, Rischi e Ostacoli (alto livello)
+- **Assunzioni critiche** — disponibilità di team (2 dev, 1 UX, 1 PM), adesione proattiva degli esercenti, supporto istituzionale alla promozione, accesso ai dati di eventi esistenti e agli store digitali.
+- **Rischi prioritari** — contenuti poco attrattivi, concorrenza di piattaforme nazionali/social, budget iniziale limitato, ritardi nelle review degli store, adempimenti GDPR/moderazione.
+- **Ostacoli da mitigare** — vincoli di tempo del corso, risorse umane ridotte, dipendenze da provider terzi (mappe, notifiche, analytics).
 
-## 6) Ambito Iniziale e Out of Scope
-- In scope (Go-live 2026-07-31): mappa, calendario eventi, schede locali con recensioni base, coupon/offerte, backend API, admin minimo per caricare contenuti, analytics base e push notification.
-- In scope (post-lancio 0-6 mesi): automazioni marketing, sezioni premium per esercenti, dashboard analitiche avanzate.
-- Out of scope: pagamenti in-app, moderazione community avanzata, machine learning di raccomandazione, programmi fedeltà complessi.
+## Allegati e Riferimenti
+- **Appendice A** — Soluzione di alto livello e alternative
+- **Appendice B** — Ambito iniziale, roadmap e fuori scope
+- **Appendice C** — Vincoli chiave
+- **Appendice D** — Milestone principali
+- **Appendice E** — Budget preliminare
+- **Appendice F** — Stakeholder chiave
+- **Appendice G** — Approvazioni formali
+- **Appendice H** — Note architetturali e sostenibilità
 
-## 7) Assunzioni, Rischi e Ostacoli (alto livello)
-- Assunzioni: team composto da 2 sviluppatori, 1 UX designer, 1 rappresentante stakeholder e 1 project manager; esercenti motivati a inserire regolarmente i propri eventi; supporto del Comune per la promozione di eventi pubblici; disponibilità di dati base da canali esistenti.
-- Rischi: bassa qualità dei contenuti (eventi irrilevanti, sconti poco utili, recensioni non veritiere); concorrenza da piattaforme social o nazionali; budget iniziale limitato; ritardi nelle review degli store; compliance GDPR e moderazione contenuti.
-- Ostacoli: tempo limitato del corso; risorse umane ridotte; dipendenze da provider terzi (mappe, notifiche, sistemi di analisi).
+---
 
-## 8) Vincoli
+### Appendice A — Soluzione di alto livello e alternative
+- Soluzione: app mobile cross-platform con backend API e admin portal; include mappa interattiva, calendario eventi, coupon e recensioni integrate al lancio; roadmap con notifiche push e personalizzazione contenuti; infrastruttura cloud gestita per scalabilità e manutenzione ridotta.
+- Alternative valutate: sito web mobile-first; canali social/newsletter aggregatrici. La scelta della app è motivata da geolocalizzazione, notifiche mirate e discoverability sugli store.
+
+### Appendice B — Ambito iniziale, roadmap e fuori scope
+- **Go-live 2026-07-31** — mappa, calendario eventi, schede locali con recensioni base, coupon/offerte, backend API, admin minimo per data entry, analytics base, push notification.
+- **Post-lancio (0-6 mesi)** — automazioni marketing, sezioni premium per esercenti, dashboard analitiche avanzate.
+- **Out of scope** — pagamenti in-app, moderazione community avanzata, machine learning di raccomandazione, programmi fedeltà complessi.
+
+### Appendice C — Vincoli chiave
 - Tempo: sviluppo completo entro luglio 2026 con milestone di prototipazione e test intermedi.
-- Budget: minimo iniziale (hosting, dominio, asset promozionali) con progressivo reinvestimento tramite ricavi generati.
-- Qualità: performance, stabilità e usabilità tali da garantire rating ≥ 4.0/5.
-- Compliance: GDPR, policy store Apple/Google, requisiti di accessibilità base.
+- Budget: investimento iniziale minimo (hosting, dominio, asset promozionali) con reinvestimento dei ricavi generati.
+- Qualità: performance, stabilità e UX tali da garantire rating ≥ 4.0/5.
+- Compliance: GDPR, policy App Store/Google Play, requisiti base di accessibilità.
 
-## 9) Milestone Principali e Durata Stimata
+### Appendice D — Milestone principali
 - M1 POS approvato e stakeholder allineati (2025-02-10).
 - M2 Ricerca utenti e prototipo validato (Q3 2025).
 - M3 Sviluppo completo e beta chiusa (Q2 2026).
 - M4 Rilascio su store e campagna di lancio (2026-07-31).
 - M5 Review post-lancio e roadmap evolutiva (Q4 2026).
 
-## 10) Budget Preliminare
-- Costi vivi stimati (12 mesi): dominio 15 €, hosting/app backend 30 €/mese, asset marketing 1.500 €, supporto customer care 1.000 €.
-- Servizi terzi: mappe (free tier), strumenti analytics freemium, piattaforme push > 1.000 utenti (stimare upgrade a 300 €/anno).
+### Appendice E — Budget preliminare
+- Costi vivi stimati (12 mesi): dominio 15 €, hosting/backend 30 €/mese, asset marketing 1.500 €, supporto customer care 1.000 €.
+- Servizi terzi: mappe (free tier), analytics freemium, piattaforme push > 1.000 utenti (stima upgrade 300 €/anno).
 - Valorizzazione ore interne (non a bilancio corso): ~300 h a 25 €/h = 7.500 €.
 - Ricavi attesi anno 1: ≥ 10.000 € da sponsorship, abbonamenti premium e advertising in-app.
 
-## 11) Stakeholder Principali
+### Appendice F — Stakeholder chiave
 - Sponsor/Committente: Docente
-- PM/Team: Alex Siroli, Alice Mastrilli
-- Stakeholder: Comune di Cesena (partner istituzionale), esercenti locali (clienti B2B), cittadini/turisti (utenti finali), provider mappe e servizi terzi, store Apple/Google, sponsor privati.
+- Project Manager: Alex Siroli
+- Project Leader: Alice Mastrilli
+- Stakeholder principali: Comune di Cesena (partner istituzionale), esercenti locali (clienti B2B), cittadini/turisti (utenti finali), provider mappe e servizi terzi, Apple/Google Store, sponsor privati.
 
-## 12) Approvazioni
+### Appendice G — Approvazioni formali
 | Ruolo | Nome | Firma | Data |
 |---|---|---|---|
 | Sponsor | Docente del corso | — | 2025‑02‑10 |
 | PM | Alex Siroli | — | 2025‑02‑10 |
 | PM | Alice Mastrilli | — | 2025‑02‑10 |
 
-### 5.1 Considerazioni architetturali
-L’architettura privilegia componenti standard e servizi gestiti per contenere complessità (hosting managed, SDK mappe) e supportare un rollout progressivo delle funzioni premium. La scelta mobile nativa/cross-platform è guidata dai requisiti di UX, geolocalizzazione e time-to-market.
-
-### 10.1 Note sulla sostenibilità
-Il modello economico ipotizzato (abbonamenti premium, eventi sponsorizzati, advertising) entra pienamente in gioco post-lancio. Nella fase pilota, l’obiettivo è validare l’adozione minimizzando i costi vivi e massimizzando l’apprendimento, per raggiungere break-even entro 12 mesi.
+### Appendice H — Note architetturali e sostenibilità
+- **Architettura** — uso di componenti standard e servizi gestiti (hosting managed, SDK mappe) per limitare complessità e sostenere rollout progressivo di funzioni premium. Scelta mobile cross-platform guidata da requisiti di UX, geolocalizzazione e time-to-market.
+- **Sostenibilità** — il modello economico (abbonamenti premium, eventi sponsorizzati, advertising) diventa pienamente attivo post-lancio; la fase pilota punta a validare l’adozione minimizzando costi vivi e massimizzando l’apprendimento per raggiungere break-even entro 12 mesi.
