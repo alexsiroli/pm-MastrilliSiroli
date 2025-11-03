@@ -1,50 +1,161 @@
-# 2202 — Requirements Breakdown Structure (RBS) — CesenaLive
+# RBS - Ziradò  
+**(Requirements Breakdown Structure)**  
 
-Scopo: scomporre i requisiti in modo gerarchico per mappa, eventi, coupon e recensioni, inclusi NF e vincoli.
+---
 
-## Convenzioni
-- Codifica ID: RBS.X.Y (X livello, Y progressivo)
-- Categorie: F = Funzionali, NF = Non funzionali, C = Vincoli
+## **1. Realizzazione dell'app**
 
-## Struttura
-```
-RBS.1 Mappa (F)
-  RBS.1.1 Geolocalizzazione e posizionamento luoghi (F)
-  RBS.1.2 Categorie/filtri (F)
-  RBS.1.3 Schede locali (info base: orari, servizi, contatti) (F)
-RBS.2 Eventi (F)
-  RBS.2.1 Calendario e lista con filtri (F)
-  RBS.2.2 Dettaglio evento (descrizione, luogo, orari, prezzo) (F)
-  RBS.2.3 Submission eventi da gestori/cittadini (moderazione minima) (F)
-RBS.3 Coupon/Offerte (F, R2)
-  RBS.3.1 Creazione/gestione coupon da parte dei gestori (F)
-  RBS.3.2 Redemption e tracking (F)
-RBS.4 Recensioni (F, R3)
-  RBS.4.1 Valutazioni per tipologia locale/esperienza (F)
-  RBS.4.2 Moderazione base (F)
-RBS.5 Backend/API e Admin (F)
-  RBS.5.1 API REST sicure (F)
-  RBS.5.2 Admin portal minimo (F)
-RBS.6 Analytics e Notifiche (F)
-  RBS.6.1 Analytics base (F)
-  RBS.6.2 Notifiche (opzionale) (F)
-RBS.7 Requisiti Non Funzionali (NF)
-  RBS.7.1 Performance P95 < 2s viste principali (NF)
-  RBS.7.2 Stabilità crash/sessione < 1% (NF)
-  RBS.7.3 Privacy/GDPR (consensi, policy) (NF)
-  RBS.7.4 Accessibilità base (NF)
-RBS.8 Vincoli (C)
-  RBS.8.1 Policy store Apple/Google (C)
-  RBS.8.2 Budget minimo e tempo corso (C)
-```
+### 1.1 Mockup e design system
+- **Output atteso:** prototipi ad alta fedeltà per i flussi utente ed esercente e un design system condiviso (palette, tipografia, componenti).
+- **Criteri di accettazione:**
+  - Copertura del 100% dei flussi principali (onboarding, mappa, lista eventi, lista locali, dettaglio locale, gestione eventi/coupon, dashboard esercente).
+  - Approvazione formale del committente registrata a verbale.
+  - Linee guida di stile archiviate nel repository design e conformi a WCAG 2.1 AA.
 
-## Tabella di Riferimento
-| ID | Titolo | Tipo | Descrizione | Criteri di Accettazione | Fonte | Note |
-|---|---|---|---|---|---|---|
-| RBS.1.1 | Geolocalizzazione | F | Mostrare luoghi su mappa | Marker corretti su 3 device | Utenti | MVP |
-| RBS.2.1 | Calendario eventi | F | Lista/filtri | Ricerca per data/categoria | Utenti | MVP |
-| RBS.3.1 | Coupon gestori | F | Creazione offerte | Redemption tracciata | Esercenti | R2 |
-| RBS.7.3 | GDPR | NF | Consenso/privacy | Policy visibile/consenso raccolto | Compliance | MVP |
+### 1.2 Funzionalità lato utente
+- **Output atteso:** moduli applicativi per mappa interattiva, calendario eventi e catalogo locali integrati con i dati aggiornati.
+- **Criteri di accettazione:**
+  - *Completezza:* filtri per data, categoria, distanza e disponibilità di coupon abilitati su tutte le viste.
+  - *Performance:* tempo di caricamento iniziale delle viste principali ≤ 2 s (95° percentile) su rete 4G con dataset di test ≥ 200 locali.
+  - *Reliability:* tasso di errore delle chiamate API critiche < 1% su finestra mobile di 7 giorni con alert automatici.
+  - *Testability:* suite end-to-end che copre almeno il 90% dei percorsi critici (ricerca evento, apertura scheda locale, salvataggio preferiti).
+  - *Look and Feel:* interfaccia conforme al design system approvato senza deviazioni non documentate.
 
-### Note discorsive
-La RBS è raccontata in funzione dell’esperienza utente: il flusso “scopro → valuto → mi muovo” parte da mappa/lista e si conclude in dettaglio evento/luogo. La raccolta di feedback guiderà l’evoluzione delle categorie e dei filtri. I requisiti non funzionali (performance, stabilità, privacy) sono esplicitati perché determinanti per l’approvazione store e la soddisfazione degli utenti.
+### 1.3 Funzionalità lato esercente
+- **Output atteso:** pannello esercente per gestione informazioni attività, eventi, coupon e statistiche d'uso.
+- **Criteri di accettazione:**
+  - *Completezza:* sezioni per dati anagrafici, calendario eventi, gestione coupon e pannello analitiche disponibili al rilascio.
+  - *Validity:* feedback raccolto da almeno 3 esercenti pilota prima dell'approvazione finale.
+  - *Maintainability:* componenti UI riutilizzabili documentati nel design system e guideline di sviluppo aggiornate.
+  - *Measurability:* ogni coupon/evento deve esporre metriche di conversione e visualizzazioni aggiornate giornalmente.
+  - *Safety:* permessi di modifica granulari con tracciamento audit di ogni variazione.
+
+### 1.4 Gestione account esercenti e sicurezza
+- **Output atteso:** processo di onboarding esercenti, gestione ruoli e misure di sicurezza applicativa.
+- **Criteri di accettazione:**
+  - *Safety:* autenticazione a due fattori opzionale, policy password (min 10 caratteri, complessità) e cifratura dati sensibili in transito e a riposo.
+  - *Reliability:* disponibilità servizi di autenticazione ≥ 99% su base mensile con monitoraggio in tempo reale.
+  - *Stabilità:* gestione delle richieste di cambio dati tramite workflow approvativo e logging completo.
+  - *Specifications:* manuale operativo per l'onboarding pubblicato e versionato con numero di revisione.
+
+### 1.5 Testing automatizzato e con utenti
+- **Output atteso:** piano di test, suite automatizzata e sessioni di validazione con utenti reali.
+- **Criteri di accettazione:**
+  - Copertura di test unitari ≥ 80% sui moduli core (mappa, eventi, gestione coupon).
+  - Almeno 2 cicli di test di usabilità con 10 utenti finali e report delle evidenze con priorità di risoluzione.
+  - Piano di regressione automatica eseguito a ogni release con storico risultati accessibile al team.
+
+---
+
+## **2. Preparazione dei contenuti**
+
+### 2.1 Raccolta iniziale dati locali
+- **Output atteso:** dataset strutturato dei locali del centro di Cesena con immagini e metadati.
+- **Criteri di accettazione:**
+  - Copertura minima del 75% dei locali identificati nel perimetro "centro" validata da camera di commercio o associazioni categoria.
+  - Per ogni locale: foto autorizzata, geolocalizzazione, fascia di prezzo, orari, giorni di apertura e contatti verificati.
+  - Evidenza della validazione dati firmata dal responsabile contenuti.
+
+### 2.2 Qualità e standardizzazione dei dati
+- **Output atteso:** linee guida di data quality e procedure di arricchimento/normalizzazione.
+- **Criteri di accettazione:**
+  - *Measurability:* ≥ 98% dei record con tutti i campi obbligatori valorizzati; tolleranza massima errori ortografici 1% tramite campionamento.
+  - *Maintainability:* dizionario dati e template di importazione pubblicati in repository condiviso.
+  - *Testability:* script di validazione automatica eseguiti ad ogni import con log degli esiti.
+
+### 2.3 Caricamento e aggiornamento contenuti
+- **Output atteso:** pipeline di caricamento nel CMS/app e processo di aggiornamento continuo.
+- **Criteri di accettazione:**
+  - Tempo medio di pubblicazione nuovi contenuti ≤ 2 giorni lavorativi dal completamento raccolta.
+  - Revisione periodica mensile con report su variazioni (nuove aperture, chiusure, cambi orari).
+  - Backup completo del dataset dei contenuti eseguito giornalmente e conservato per 30 giorni.
+
+---
+
+## **3. Ricerca degli sponsor**
+
+### 3.1 Mappatura e contatto sponsor target
+- **Output atteso:** elenco qualificato di potenziali sponsor e piano di contatto.
+- **Criteri di accettazione:**
+  - Almeno 15 potenziali sponsor profilati per settore e budget stimato.
+  - Script di contatto e materiali di presentazione approvati dal committente.
+  - CRM o foglio di tracciamento aggiornato settimanalmente con stato di avanzamento.
+
+### 3.2 Offerte commerciali e contratti
+- **Output atteso:** pacchetti di sponsorizzazione, business case e processi di firma.
+- **Criteri di accettazione:**
+  - Tre livelli di pacchetto (bronze, silver, gold) con benefici, costi, KPI promessi e SLA di erogazione.
+  - Template contrattuale revisionato dall'ufficio legale e versionato.
+  - *Validity:* approvazione del committente su pricing e condizioni prima dell'invio agli sponsor.
+
+### 3.3 Integrazione banner e tracciamento
+- **Output atteso:** funzionalità per la visualizzazione dinamica dei banner sponsor nell'app e reportistica correlata.
+- **Criteri di accettazione:**
+  - *Performance:* impatto sulla latenza di caricamento schermate ≤ 200 ms nel 95° percentile.
+  - *Reliability:* disponibilità del servizio di ad serving ≥ 99% e fallback in caso di errore.
+  - *Testability:* tracciamento click/impression integrato con dashboard e dati esportabili mensilmente.
+  - *Safety:* conformità GDPR con gestione consensi e anonimizzazione analytics.
+
+---
+
+## **4. Lancio e marketing**
+
+### 4.1 Identità visiva e storytelling
+- **Output atteso:** logo, linee guida brand, kit grafico e storytelling di progetto.
+- **Criteri di accettazione:**
+  - Manuale brand con palette, tipografia, uso logo e tone of voice pubblicato in repository condiviso.
+  - Tre concept di storytelling testati con focus group interno e scelto quello approvato dal committente.
+  - Materiali grafici consegnati in formati ottimizzati (SVG, PNG, PDF) e verificati per coerenza.
+
+### 4.2 Pubblicazione sugli store
+- **Output atteso:** app disponibile su Google Play e App Store con schede descrittive ottimizzate.
+- **Criteri di accettazione:**
+  - Checklist di conformità store (privacy, policy contenuti, asset grafici) completata e archiviata.
+  - Test di installazione su almeno 5 device Android e 5 device iOS rappresentativi.
+  - Analytics configurati (installazioni, retention, crash) prima del go-live.
+
+### 4.3 Campagne di attivazione
+- **Output atteso:** piano di campagne rivolte a utenti e esercenti con budget e calendario.
+- **Criteri di accettazione:**
+  - Mix di canali (social, manifesti, QR code, email) con KPI target definiti (acquisizione, conversione, CAC).
+  - Budget allocato e approvato, con monitoraggio settimanale delle performance.
+  - Contenuti social pianificati almeno 4 settimane prima del lancio con copy approvati.
+
+### 4.4 Formazione esercenti e supporto
+- **Output atteso:** materiale formativo, sessioni di onboarding e piano di supporto post-lancio.
+- **Criteri di accettazione:**
+  - Manuale operativo e video tutorial disponibili per gli esercenti entro la data di lancio.
+  - Almeno 2 sessioni formative (in presenza o webinar) con registrazione presenze e feedback.
+  - Canale di supporto dedicato attivo (email o chat) con SLA di risposta ≤ 1 giorno lavorativo.
+
+---
+
+## **5. Monitoraggio e manutenzione**
+
+### 5.1 Monitoraggio soddisfazione e utilizzo
+- **Output atteso:** sistema di raccolta feedback e indicatori di soddisfazione.
+- **Criteri di accettazione:**
+  - Sondaggi trimestrali per utenti ed esercenti con target di risposta ≥ 20% e NPS minimo di 30.
+  - Dashboard mensile con metriche di utilizzo (MAU, retention, coupon redemption) disponibile al management.
+  - Piano di azioni correttive entro 10 giorni lavorativi per ogni criticità ad alta priorità.
+
+### 5.2 Aggiornamento catalogo e nuovi locali
+- **Output atteso:** processo continuo di onboarding nuovi locali e revisione schede esistenti.
+- **Criteri di accettazione:**
+  - Inserimento di nuovi locali entro 5 giorni lavorativi dalla richiesta e audit semestrale di tutto il catalogo.
+  - Verifica documentata delle variazioni di orari/prezzi almeno ogni trimestre.
+  - Registro delle richieste di aggiornamento con stato e data di completamento.
+
+### 5.3 Manutenzione tecnica e prestazioni
+- **Output atteso:** roadmap di release, monitoraggio prestazioni e piano di continuità operativa.
+- **Criteri di accettazione:**
+  - Ciclo di release regolare (almeno una minor release ogni 6 settimane) con changelog pubblicato.
+  - Monitoraggio prestazioni h24 con soglie di alert definite; MTTR (Mean Time To Restore) target ≤ 4 ore per incidenti critici.
+  - Documentazione tecnica aggiornata a ogni release (architettura, API, manuale gestione infrastruttura).
+
+### 5.4 Gestione cambi requisiti e governance
+- **Output atteso:** processo strutturato di change management e allineamento stakeholder.
+- **Criteri di accettazione:**
+  - Comitato di revisione requisiti riunito almeno mensilmente con verbali archiviati.
+  - Valutazione di impatto (costo, tempo, rischio) obbligatoria per ogni change request prima dell'approvazione.
+  - Registro versioni RBS/WBS aggiornato, con tracciabilità delle modifiche e notifica al team entro 2 giorni lavorativi.
