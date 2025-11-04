@@ -1,4 +1,4 @@
-# 21 — Sintesi JPPS (Joint Project Planning Session) — CesenaLive
+# 21 — Sintesi JPPS (Joint Project Planning Session) — Ziradò
 
 Scopo: validare WBS, stime, schedula e budget per R1; definire baseline e rischi.
 

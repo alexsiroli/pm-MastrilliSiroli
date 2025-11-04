@@ -1,4 +1,4 @@
-# 2301 — Team Operating Rules — CesenaLive
+# 2301 — Team Operating Rules — Ziradò
 
 Scopo: regole operative del team (2 persone) per R1–R3.
 

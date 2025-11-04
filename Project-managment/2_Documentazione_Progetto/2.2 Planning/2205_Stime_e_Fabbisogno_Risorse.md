@@ -1,4 +1,4 @@
-# 2205 — Stime e Fabbisogno Risorse — CesenaLive
+# 2205 — Stime e Fabbisogno Risorse — Ziradò
 
 Scopo: stimare effort/durata e definire il fabbisogno di risorse per R1.
 

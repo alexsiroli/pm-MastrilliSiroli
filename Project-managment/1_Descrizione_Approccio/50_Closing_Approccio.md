@@ -1,4 +1,4 @@
-# 50 — Closing: Approccio (CesenaLive)
+# 50 — Closing: Approccio (Ziradò)
 
 Scopo: definire criteri di accettazione e processo di chiusura con audit e report finale.
 

@@ -1,4 +1,4 @@
-# 2401 — Project Status Report — CesenaLive (Esempio)
+# 2401 — Project Status Report — Ziradò (Esempio)
 
 Scopo: comunicazione periodica sullo stato con indicatori, scostamenti e azioni.
 

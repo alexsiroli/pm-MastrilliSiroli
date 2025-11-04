@@ -1,4 +1,4 @@
-# 2302 — Matrice di Responsabilità RASCI — CesenaLive
+# 2302 — Matrice di Responsabilità RASCI — Ziradò
 
 Scopo: mappare deliverable principali con i ruoli del team e stakeholder.
 

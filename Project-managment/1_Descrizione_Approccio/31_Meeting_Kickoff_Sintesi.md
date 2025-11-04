@@ -1,4 +1,4 @@
-# 31 — Sintesi Meeting di Kickoff (CesenaLive)
+# 31 — Sintesi Meeting di Kickoff (Ziradò)
 
 Scopo: avvio formale dell’esecuzione R1 con conferma piano, responsabilità e milestone.
 

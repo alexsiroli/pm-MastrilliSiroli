@@ -1,4 +1,4 @@
-# 40 — Monitoring & Controlling: Approccio (CesenaLive)
+# 40 — Monitoring & Controlling: Approccio (Ziradò)
 
 Scopo: definire reporting, metriche, change control e gestione rischi/issues durante R1–R3.
 

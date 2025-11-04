@@ -1,4 +1,4 @@
-# 41 — Issues Log e Gestione dei Rischi: Procedura (CesenaLive)
+# 41 — Issues Log e Gestione dei Rischi: Procedura (Ziradò)
 
 Scopo: definire processo e strategia di escalation per issues e rischi, con KPI e ruoli per il progetto.
 

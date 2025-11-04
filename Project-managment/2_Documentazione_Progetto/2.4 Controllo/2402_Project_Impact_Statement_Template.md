@@ -1,4 +1,4 @@
-# 2402 — Project Impact Statement — CesenaLive (Esempio)
+# 2402 — Project Impact Statement — Ziradò (Esempio)
 
 Scopo: analizzare l’impatto della SCR‑001 (login social) su R1.
 

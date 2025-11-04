@@ -1,4 +1,4 @@
-# 20 — Planning: Approccio (CesenaLive)
+# 20 — Planning: Approccio (Ziradò)
 
 Scopo: definire WBS, stime, sequenza e schedula per l’MVP (R1) e la roadmap (R2‑R3), con baseline di scope/tempo/costi.
 

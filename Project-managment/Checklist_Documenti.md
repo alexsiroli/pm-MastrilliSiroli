@@ -1,5 +1,9 @@
 # Checklist Compilazione Documenti PMLC
 
+- [S] - fatto da Siroli
+- [M] - fatto da Mastilli
+- [I] - fatto Insieme
+
 ## Documentazione trasversale
 - [ ] `1_Descrizione_Approccio/00_Indice_e_Sintesi_Approccio.md` — Obbligatorio
 

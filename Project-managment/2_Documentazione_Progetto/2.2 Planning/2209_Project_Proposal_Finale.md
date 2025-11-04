@@ -1,6 +1,6 @@
-# 2209 — Project Proposal Finale — CesenaLive
+# 2209 — Project Proposal Finale — Ziradò
 
-Scopo: approvazione definitiva del piano R1‑R3 per CesenaLive.
+Scopo: approvazione definitiva del piano R1‑R3 per Ziradò.
 
 ## 1) Executive Summary
 App mobile per mappa/eventi/luoghi a Cesena. MVP in 10–12 settimane con budget vivo minimo e ore interne valorizzate per business case. Benefici: centralizzazione info, crescita partecipazione, base per sponsorship e scaling.

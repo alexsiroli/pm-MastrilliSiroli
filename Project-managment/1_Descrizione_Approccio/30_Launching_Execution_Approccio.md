@@ -1,4 +1,4 @@
-# 30 — Launching/Execution: Approccio (CesenaLive)
+# 30 — Launching/Execution: Approccio (Ziradò)
 
 Scopo: avviare l’esecuzione R1 con organizzazione del team, regole operative, qualità e change control.
 

@@ -1,6 +1,6 @@
-# 00 — Indice e Sintesi dell'Approccio (CesenaLive)
+# 00 — Indice e Sintesi dell'Approccio (Ziradò)
 
-Scopo: introdurre l’approccio di Project Management scelto per “CesenaLive”, app mobile che centralizza eventi, attività e locali della città di Cesena per favorire turismo locale e coinvolgimento dei cittadini.
+Scopo: introdurre l’approccio di Project Management scelto per “Ziradò”, app mobile che centralizza eventi, attività e locali della città di Cesena per favorire turismo locale e coinvolgimento dei cittadini.
 
 ## 1) Modello PMLC scelto
 - Modello: Ibrido Iterativo‑Incrementale, con timebox a sprint e milestone fisse (pilot locale → estendibile).

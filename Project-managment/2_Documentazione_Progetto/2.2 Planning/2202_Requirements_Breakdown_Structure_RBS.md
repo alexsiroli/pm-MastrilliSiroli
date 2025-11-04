@@ -1,4 +1,4 @@
-# 2202 — Requirements Breakdown Structure (RBS) — CesenaLive
+# 2202 — Requirements Breakdown Structure (RBS) — Ziradò
 
 Scopo: scomporre i requisiti in modo gerarchico per mappa, eventi, coupon e recensioni, inclusi NF e vincoli.
 

@@ -1,9 +1,9 @@
-# 2201 — Project Definition Statement (PDS) — CesenaLive
+# 2201 — Project Definition Statement (PDS) — Ziradò
 
 Scopo: base di riferimento pre‑esecutiva per R1, con deliverable, piano, risorse, rischi e metriche.
 
 ## Metadati
-- Progetto: CesenaLive — Versione/Data: v1.0 / 2025‑02‑10 — Autori: Alex Siroli, Alice Mastrilli — Approvazioni: Docente
+- Progetto: Ziradò — Versione/Data: v1.0 / 2025‑02‑10 — Autori: Alex Siroli, Alice Mastrilli — Approvazioni: Docente
 
 ## 1) Visione e Obiettivi
 - Visione: app unica per scoprire e vivere Cesena.

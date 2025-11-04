@@ -1,9 +1,9 @@
-# 2503 — Rapporto Finale di Progetto — CesenaLive
+# 2503 — Rapporto Finale di Progetto — Ziradò
 
 Scopo: riepilogare esecuzione e risultati, inclusi KPI, valutazioni e allegati principali.
 
 ## Executive Summary
-CesenaLive R1 rilasciata dopo 11 settimane: mappa ed eventi funzionanti, contenuti iniziali completati, rating 4.2 e ~550 MAU nel primo mese. Roadmap R2 (coupon) e R3 (recensioni) confermata.
+Ziradò R1 rilasciata dopo 11 settimane: mappa ed eventi funzionanti, contenuti iniziali completati, rating 4.2 e ~550 MAU nel primo mese. Roadmap R2 (coupon) e R3 (recensioni) confermata.
 
 ## Panoramica del Progetto
 Contesto: centralizzare eventi/luoghi a Cesena. Obiettivi: MVP su store, KPI di adozione iniziale. Approccio: PMLC ibrido iterativo‑incrementale, baseline e change control.

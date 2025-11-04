@@ -1,4 +1,4 @@
-# 2403 — Issues Log (Registro dei Problemi) — CesenaLive
+# 2403 — Issues Log (Registro dei Problemi) — Ziradò
 
 Scopo: registrare problemi/ostacoli e tracciarne la risoluzione.
 

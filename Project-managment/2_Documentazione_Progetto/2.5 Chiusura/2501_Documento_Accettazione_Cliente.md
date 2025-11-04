@@ -1,9 +1,9 @@
-# 2501 — Documento di Accettazione Cliente — CesenaLive
+# 2501 — Documento di Accettazione Cliente — Ziradò
 
 Scopo: certificare l’accettazione dei deliverable R1.
 
 ## Dati Progetto
-- Progetto: CesenaLive — Versione: 1.0 — Data: 2025‑05‑10 — Cliente/Sponsor: Docente
+- Progetto: Ziradò — Versione: 1.0 — Data: 2025‑05‑10 — Cliente/Sponsor: Docente
 
 ## Deliverable Accettati
 | ID | Nome | Criteri di Accettazione | Evidenze/Collaudi | Esito |

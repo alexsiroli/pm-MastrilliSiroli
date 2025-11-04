@@ -1,4 +1,4 @@
-# 2303 — Scope Change Request Form — CesenaLive
+# 2303 — Scope Change Request Form — Ziradò
 
 Scopo: proporre e valutare modifiche allo scope baseline.
 

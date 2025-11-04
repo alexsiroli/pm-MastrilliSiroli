@@ -1,4 +1,4 @@
-# 2203 — Work Breakdown Structure (WBS) — CesenaLive
+# 2203 — Work Breakdown Structure (WBS) — Ziradò
 
 Scopo: dettagliare il lavoro necessario per i deliverable della RBS, fino a task stimabili.
 

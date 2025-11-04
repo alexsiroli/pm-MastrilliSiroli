@@ -1,4 +1,4 @@
-# 2502 — Audit Post‑Implementazione — CesenaLive
+# 2502 — Audit Post‑Implementazione — Ziradò
 
 Scopo: valutare successo, performance e valore post R1; catturare lezioni e raccomandazioni.
 

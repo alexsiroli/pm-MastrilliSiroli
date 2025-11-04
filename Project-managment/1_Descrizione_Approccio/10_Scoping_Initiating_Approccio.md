@@ -1,4 +1,4 @@
-# 10 — Scoping/Initiating: Approccio (CesenaLive)
+# 10 — Scoping/Initiating: Approccio (Ziradò)
 
 Scopo: definire confini, condizioni di soddisfazione e requisiti high‑level per l’avvio del progetto pilota a Cesena.
 

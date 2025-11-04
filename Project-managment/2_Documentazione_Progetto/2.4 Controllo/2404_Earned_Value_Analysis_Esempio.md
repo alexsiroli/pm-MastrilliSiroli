@@ -1,4 +1,4 @@
-# 2404 — Earned Value Analysis (Esempio) — CesenaLive
+# 2404 — Earned Value Analysis (Esempio) — Ziradò
 
 Scopo: calcolare PV, EV, AC e indici SPI/CPI su sprint iniziali R1.
 

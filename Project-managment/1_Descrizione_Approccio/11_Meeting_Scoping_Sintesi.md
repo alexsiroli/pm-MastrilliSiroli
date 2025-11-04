@@ -1,4 +1,4 @@
-# 11 — Sintesi Meeting di Scoping (CesenaLive)
+# 11 — Sintesi Meeting di Scoping (Ziradò)
 
 Scopo: documentare la simulazione del Project Scoping Meeting iniziale per definire contesto, CoS, RBS L1 e rischi.
 

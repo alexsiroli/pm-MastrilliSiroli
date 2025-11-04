@@ -1,4 +1,4 @@
-# 2207 — Analisi del Cash Flow — CesenaLive
+# 2207 — Analisi del Cash Flow — Ziradò
 
 Scopo: proiezione flussi vivi (uscite) e ipotesi di entrate (sponsorship) nel periodo R1–R3.
 

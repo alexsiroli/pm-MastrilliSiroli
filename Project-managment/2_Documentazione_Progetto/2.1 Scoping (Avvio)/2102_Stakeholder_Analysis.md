@@ -1,4 +1,4 @@
-# 2102 — Stakeholder Analysis — CesenaLive
+# 2102 — Stakeholder Analysis — Ziradò
 
 Scopo: identificare stakeholder, interessi, influenza e piani di ingaggio per il progetto pilota.
 
