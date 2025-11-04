@@ -38,7 +38,7 @@ Scopo: introdurre l’approccio di Project Management scelto per “Ziradò”, 
 - Accettazione Cliente, Audit Post‑Implementazione, Rapporto Finale
 
 ## 6) Sintesi dell’Approccio
-- Strategia MVP in 3 release: R1 (MVP: mappa + eventi), R2 (coupon + schede locali), R3 (recensioni + growth features).
+- Strategia MVP in 3 release: R1 (MVP: mappa + eventi), R2 (coupon), R3 (recensioni + growth features).
 - Governance leggera: stand‑up settimanale, review sprint bisettimanale, demo a sponsor/committente (docente) a fine milestone.
 - Rischi prioritari: bassa adozione, qualità/aggiornamento contenuti, compliance store e GDPR. Mitigazioni: partnership locali, automazione ingest contenuti, early test su TestFlight/Closed Track.
 
