@@ -11,11 +11,11 @@
 - [ ] `1_Descrizione_Approccio/10_Scoping_Initiating_Approccio.md` — Obbligatorio
 - [ ] `2_Documentazione_Progetto/2.1 Scoping (Avvio)/2102_Stakeholder_Analysis.md` — Obbligatorio
 - [ ] `2_Documentazione_Progetto/2.1 Scoping (Avvio)/2101_Project_Overview_Statement_POS.md` — Obbligatorio
+- [ ] `2_Documentazione_Progetto/2.1 Scoping (Avvio)/2202_Requirements_Breakdown_Structure_RBS.md` — Obbligatorio
 - [ ] `1_Descrizione_Approccio/11_Meeting_Scoping_Sintesi.md` — Obbligatorio
 
 ## Fase 2 · Planning
 - [ ] `1_Descrizione_Approccio/20_Planning_Approccio.md` — Obbligatorio
-- [ ] `2_Documentazione_Progetto/2.2 Planning/2202_Requirements_Breakdown_Structure_RBS.md` — Obbligatorio
 - [ ] `2_Documentazione_Progetto/2.2 Planning/2203_Work_Breakdown_Structure_WBS.md` — Obbligatorio
 - [ ] `2_Documentazione_Progetto/2.2 Planning/2205_Stime_e_Fabbisogno_Risorse.md` — Obbligatorio
 - [ ] `2_Documentazione_Progetto/2.2 Planning/2204_Schedula_Gantt_e_Network_Diagram.md` — Obbligatorio
