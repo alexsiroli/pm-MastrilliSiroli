@@ -9,8 +9,7 @@
 
 ## Fase 1 · Scoping / Initiating
 - [ ] `1_Descrizione_Approccio/10_Scoping_Initiating_Approccio.md` — Obbligatorio
-- [ ] `2_Documentazione_Progetto/2.1 Scoping (Avvio)/2102_Stakeholder_Analysis.md` — Obbligatorio
-- [ ] `2_Documentazione_Progetto/2.1 Scoping (Avvio)/2101_Project_Overview_Statement_POS.md` — Obbligatorio
+- [I] `2_Documentazione_Progetto/2.1 Scoping (Avvio)/2101_Project_Overview_Statement_POS.md` — Obbligatorio
 - [I] `2_Documentazione_Progetto/2.1 Scoping (Avvio)/2202_Requirements_Breakdown_Structure_RBS.md` — Obbligatorio
 - [ ] `1_Descrizione_Approccio/11_Meeting_Scoping_Sintesi.md` — Obbligatorio
 
