@@ -25,7 +25,7 @@ Verifica: demo interna, beta (TestFlight/closed track), checklist store, smoke t
 - F5 Backend/API e admin portal essenziale; F6 Onboarding contenuti; F7 Analytics.
 - NF1 Prestazioni; NF2 Privacy/GDPR; NF3 Accessibilità; NF4 Affidabilità; C1 Policy store; C2 Budget/tempo.
 
-Tracciabilità: POS → RBS; RBS → WBS (2203).
+Tracciabilità: POS → RBS; RBS → WBS (2202).
 
 ### 3.1 Personas e Job‑to‑Be‑Done (discorsivo)
 - Persona “Cittadina Curiosa”: vuole scoprire in pochi tocchi cosa succede nel weekend; JTBD: “Quando ho un’ora libera, voglio trovare un evento vicino e adatto alle mie preferenze, così da non perdere tempo a cercare su più canali”.

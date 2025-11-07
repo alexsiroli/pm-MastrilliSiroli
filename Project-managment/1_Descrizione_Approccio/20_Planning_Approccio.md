@@ -30,7 +30,7 @@ Il rischio principale è la revisione store: anche a parità di qualità, i temp
 
 ## 6) Baseline
 - Scope baseline: R1 feature minime; R2 coupon; R3 recensioni.
-- Tempo/Costo baseline: Gantt e budget in 2204/2206; change control via SCR (2303).
+- Tempo/Costo baseline: Gantt e budget in 2203/2205; change control via SCR (2303).
 
 ## 7) Governance e Comunicazione
 - Stand‑up settimanale, review ogni 2 settimane, retro al termine di ogni release.

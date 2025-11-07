@@ -1,11 +1,11 @@
-# 2203 — Work Breakdown Structure (WBS) — Ziradò
+# 2202 — Work Breakdown Structure (WBS) — Ziradò
 
 ## RBS.1 — Mappa
 La mappa orienta gli utenti nella città mostrando i luoghi più rilevanti con le relative schede.
 
 ### RBS.1.1 — Schede locali
 - WBS.1.1.1 Creazione del modello dati di una scheda locale con: nome, descrizione, tipologia, indirizzo, giorni e orari, servizi offerti, menù, contatti.
-- WBS 1.1.2 Raccolta delle informazioni di ogni locale.
+- WBS.1.1.2 Raccolta delle informazioni di ogni locale.
 - WBS.1.1.3 Sviluppo di un sistema di creazione, modifica e rimozione di un locale. I gestori possono solo modificare e rimuovere i locali, mentre la creazione è un compito esclusivo degli amministratori.
 - WBS.1.1.4 Sviluppo di azioni rapide: chiamata al locale, navigazione mappa, condivisione attraverso app terze.
 
@@ -30,7 +30,7 @@ La sezione eventi racchiude le attività specifiche dei locali con relativi dett
 - WBS.2.2.2 Validazioni e gestione contenuti mancanti nel form di creazione/modifica.
 - WBS.2.2.3 Notifica in app dell'esito al gestore.
 
-### RBS.2.2 — Calendario e lista con filtri
+### RBS.2.3 — Calendario e lista con filtri
 - WBS.2.3.1 Progettazione e sviluppo di un calendario con grafica intuitiva e gesture di navigazione base. Gli eventi vengono collocati sul calendario in base al giorno in cui si verificano.
 - WBS.2.3.2 Progettazione e sviluppo di una lista con grafica intuitiva e gesture di navigazione base. Gli eventi vengono collocati sulla lista in base al giorno in cui si verificano.
 - WBS.2.3.3 Sviluppo di un sistema di filtraggio degli eventi in base alla tipologia di locale, giorno, orari e fasce di prezzo.

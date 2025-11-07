@@ -1,4 +1,4 @@
-# 2206 — Analisi Costi e Budget — Ziradò
+# 2205 — Analisi Costi e Budget — Ziradò
 
 Scopo: stimare e allocare costi per R1; evidenziare costi vivi vs valorizzazione ore interne (non a bilancio corso).
 

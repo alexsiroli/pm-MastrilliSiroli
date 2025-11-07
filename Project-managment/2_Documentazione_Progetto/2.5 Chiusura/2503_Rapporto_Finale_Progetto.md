@@ -21,7 +21,7 @@ Sponsor soddisfatto (accettazione firmata); feedback positivi da esercenti pilot
 Partnership e contenuti sono critici; preparare store listing in anticipo; mantenere backlog growth. Proseguire con coupon e recensioni.
 
 ## Allegati Essenziali
-POS (2101), PDS (2201), RBS (2202), WBS (2203), Gantt (2204), Budget (2206), EVA (2404), Accettazione Cliente (2501).
+POS (2101), PDS (2201), RBS (2102), WBS (2202), Gantt (2203), Budget (2205), EVA (2404), Accettazione Cliente (2501).
 
 ## Chiusura
 Progetto R1 completato. Si procede a R2 secondo roadmap.

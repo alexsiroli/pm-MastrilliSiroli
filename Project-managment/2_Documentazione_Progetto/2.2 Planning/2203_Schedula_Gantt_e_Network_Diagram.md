@@ -1,4 +1,4 @@
-# 2204 — Schedula Gantt e Network Diagram — Ziradò
+# 2203 — Schedula Gantt e Network Diagram — Ziradò
 
 Scopo: definire sequenze, dipendenze e tempi attività R1, con CP atteso Backend→Mobile→QA→Store.
 

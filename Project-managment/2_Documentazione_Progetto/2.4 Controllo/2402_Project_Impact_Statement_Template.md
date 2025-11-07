@@ -22,7 +22,7 @@ Scopo: analizzare l’impatto della SCR‑001 (login social) su R1.
 - Opzione B: spike 1g in R1 e implementazione completa in R2.
 
 ## Valutazione Rischio
-- Rischio store/GDPR; mitigazioni definite in 2208.
+- Rischio store/GDPR; mitigazioni definite in 2207.
 
 ## Approvazioni
 | Ruolo | Nome | Decisione | Firma | Data |

@@ -1,4 +1,4 @@
-# 2208 — Analisi Rischi e Mitigazione — Ziradò
+# 2207 — Analisi Rischi e Mitigazione — Ziradò
 
 Scopo: identificare, valutare e trattare rischi su adozione, contenuti, store, compliance e capacità.
 
