@@ -15,7 +15,7 @@
 
 ## Fase 2 · Planning
 - [ ] `1_Descrizione_Approccio/20_Planning_Approccio.md` — Obbligatorio
-- [ ] `2_Documentazione_Progetto/2.2 Planning/2203_Work_Breakdown_Structure_WBS.md` — Obbligatorio
+- [I] `2_Documentazione_Progetto/2.2 Planning/2203_Work_Breakdown_Structure_WBS.md` — Obbligatorio
 - [ ] `2_Documentazione_Progetto/2.2 Planning/2205_Stime_e_Fabbisogno_Risorse.md` — Obbligatorio
 - [ ] `2_Documentazione_Progetto/2.2 Planning/2204_Schedula_Gantt_e_Network_Diagram.md` — Obbligatorio
 - [ ] `2_Documentazione_Progetto/2.2 Planning/2206_Analisi_Costi_e_Budget.md` — Obbligatorio
