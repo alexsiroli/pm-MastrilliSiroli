@@ -72,31 +72,62 @@ L'infrastruttura deve gestire i dati in maniera corretta e coerente.
 - WBS.5.1.2 Gestione dell'interfaccia coerente al ruolo dell'utente.
  
 ### RBS.5.2 — Interfaccia per amministratore
-- WBS.5.2.1 Creazione del portale admin che permette di eseguire operazioni ordinarie da parte del team, quali creazione/modifica/rimozione di un locale e moderazione delle recensioni.
+- WBS.5.2.1 Creazione del portale admin che permette di eseguire operazioni ordinarie da parte del team, quali creazione/modifica/rimozione di un locale, moderazione delle recensioni e gestione di pubblicità/sponsor.
 
 ## RBS.6 — Sistema di Notifiche
 Possibilità di ricevere notifiche.
 
 ### RBS.6.1 — Notifiche
 - WBS.6.1.1 Sviluppo di un sistema che manda notifiche agli utenti. 
-- WBS.6.1.2 Trigger per i clienti quando viene inserito/modificato un locale o aggiunte di nuovi coupon ed eventi.
+- WBS.6.1.2 Trigger per i clienti quando viene inserito/modificato un locale o aggiunte di nuovi eventi.
 - WBS.6.1.3 Interfaccia che permette agli utenti di selezionare le notifiche che vogliono ricevere.
-- WBS.6.1.4 Trigger automatici per i locali per notificare l'esito di un caricamento di evento o coupon e per gli utenti che segnalano recensioni.
+- WBS.6.1.4 Trigger automatici per i locali per notificare l'esito di un caricamento di un evento.
 
-## RBS.7 — Requisiti Non Funzionali
+### RBS.6.2 — Notifiche coupon (R2)
+- WBS.6.2.1 Estensione dei trigger per inviare notifiche ai clienti quando vengono pubblicati nuovi coupon o aggiornati quelli esistenti.
+- WBS.6.2.2 Configurazione delle preferenze/notifiche dedicate ai coupon nell'app cliente.
+
+### RBS.6.3 — Notifiche recensioni (R3)
+- WBS.6.3.1 Notifiche per gli utenti quando una loro segnalazione di una recensione viene moderata.
+
+## RBS.7 — Attività di lancio e sponsorizzazione
+Coordinamento delle attività di pubblicazione sugli store, monetizzazione tramite sponsor e campagne social di lancio.
+
+### RBS.7.1 — Pubblicazione store
+- WBS.7.1.1 Raccolta e produzione degli asset (descrizioni, screenshot, policy privacy) per App Store e Google Play.
+- WBS.7.1.2 Caricamento e pubblicazione finale sugli store.
+
+### RBS.7.2 — Sponsorizzazioni e advertising in-app
+- WBS.7.2.1 Progettazione e implementazione interfaccia della pagina sponsor.
+- WBS.7.2.2 Progettazione e implementazione interfaccia disposizione degli slot pubblicitari e analisi dei punti di collocamento. 
+
+### RBS.7.3 — Canali social & campagne
+- WBS.7.3.1 Creazione e setup dei canali social (Instagram, Facebook, TikTok) e della brand identity.
+- WBS.7.3.2 Produzione del piano editoriale e dei materiali multimediali (copy, grafiche, brevi video).
+- WBS.7.3.3 Scheduling, pubblicazione dei contenuti e gestione community.
+
+### RBS.7.4 — Rilascio aggiornamenti
+- WBS.7.4.1 Pianificazione e submission dell’aggiornamento sugli store (R2, R3).
+- WBS.7.4.2 Comunicazione release note e micro-campagna social per gli aggiornamenti.
+
+## RBS.8 — Requisiti Non Funzionali
 Linee guida trasversali per performance, stabilità, rispetto della privacy e di normative e accessibilità base.
 
-### RBS.7.1 — Performance
-- WBS.7.1.1 Le viste principali devono caricarsi entro 2 secondi nel 95% dei casi.
+### RBS.8.1 — Performance
+- WBS.8.1.1 Le viste principali devono caricarsi entro 2 secondi nel 95% dei casi.
 
-### RBS.7.2 — Stabilità
-- WBS.7.2.1 Il tasso di crash per sessione resta sotto l’1%.
+### RBS.8.2 — Stabilità
+- WBS.8.2.1 Il tasso di crash per sessione resta sotto l’1%.
 
-### RBS.7.3 — Privacy/GDPR (consensi, policy)
-- WBS.7.3.1 I processi raccolgono consensi espliciti e mostrano policy trasparenti in linea con GDPR.
+### RBS.8.3 — Privacy/GDPR (consensi, policy)
+- WBS.8.3.1 I processi raccolgono consensi espliciti e mostrano policy trasparenti in linea con GDPR.
 
-### RBS.7.4 — Rispetto delle normative degli store
-- WBS.7.4.1 Adesione ai principi richiesti da App Store e Google Play Store.
+### RBS.8.4 — Rispetto delle normative degli store
+- WBS.8.4.1 Adesione ai principi richiesti da App Store e Google Play Store.
 
-### RBS.7.5 — Accessibilità base
-- WBS.7.5.1 Interfacce e testi rispettano requisiti minimi di accessibilità per un uso inclusivo.
+### RBS.8.5 — Accessibilità base
+- WBS.8.5.1 Interfacce e testi rispettano requisiti minimi di accessibilità per un uso inclusivo.
+
+### RBS.8.6 — Controlli post-release
+- WBS.8.6.1 Re-test sintetico di performance/stabilità dopo ogni aggiornamento.
+- WBS.8.6.2 Verifica di privacy/GDPR sulle nuove build.
