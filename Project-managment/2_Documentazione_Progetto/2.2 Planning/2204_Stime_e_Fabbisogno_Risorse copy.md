@@ -26,10 +26,6 @@ Si adotta uno sviluppo incrementale per release R1–R3, con revisione periodica
 ## Tabella Stime per Attività (Three-Point con Durata Effettiva)
 
 | ID | Nome Attività | O/M/P (h) | Effort Medio (E) | Durata Effettiva (gg) | Ruolo | Note |
-|----|----------------|-----------|------------------|------------------------|-------|------|
-## Tabella Stime per Attività (Three-Point con Durata Effettiva)
-
-| ID | Nome Attività | O/M/P (h) | Effort Medio (E) | Durata Effettiva (gg) | Ruolo | Note |
 |----|----------------|------------|------------------|------------------------|--------|------|
 | **RBS.1 — Mappa** | | | | | | |
 | WBS.1.1.1 | Creazione modello dati scheda locale | 6/8/10 | **8 h** | **3 gg** | Alice | — |
@@ -93,7 +89,7 @@ Si adotta uno sviluppo incrementale per release R1–R3, con revisione periodica
 
 ## Fabbisogno Complessivo (Sintesi)
 
-Si prevede che, considerando che sia Alice che Alex lavorino nei giorni infra-settimanali, lo sviluppo dell'applicazione richiede circa 21 settimane, ovvero 7 mesi. Si considera questa una stima approssimativa: non sono tenuti conto dei vincoli tra i vari requisiti (che possono ritardare le partenze di alcuni task) e di periodi di vacanze (natale/pasqua) che vanno a diminuire i giorni lavorativi. Nel Gannt, si otterranno delle stime più realistiche.
+Si prevede che, considerando che sia Alice che Alex lavorino nei giorni infra-settimanali, lo sviluppo dell'applicazione richiede circa 21 settimane, ovvero 5 mesi. Si considera questa una stima approssimativa: non sono tenuti conto dei vincoli tra i vari requisiti (che possono ritardare le partenze di alcuni task) e di periodi di vacanze (natale/pasqua) che vanno a diminuire i giorni lavorativi. Nel Gannt, si otterranno delle stime più realistiche.
 
 | Ruolo | FTE / mesi | Periodo | Vincoli / Note |
 |--------|-------------|----------|----------------|

@@ -29,9 +29,6 @@ La sezione eventi racchiude le attività specifiche dei locali con relativi dett
 - WBS.2.2.1 Sviluppo di un sistema per i locali di creazione, modifica e rimozione di un evento.
 - WBS.2.2.2 Validazioni e gestione contenuti mancanti nel form di creazione/modifica.
 
-
-- WBS.2.2.3 Notifica in app dell'esito al gestore. (?)
-
 ### RBS.2.3 — Calendario e lista con filtri
 - WBS.2.3.1 Progettazione e sviluppo di un calendario con grafica intuitiva e gesture di navigazione base. Gli eventi vengono collocati sul calendario in base al giorno in cui si verificano.
 - WBS.2.3.2 Progettazione e sviluppo di una lista con grafica intuitiva e gesture di navigazione base. Gli eventi vengono collocati sulla lista in base al giorno in cui si verificano.
@@ -43,9 +40,6 @@ Possibilità di visualizzare e aggiungere dei coupon. Il coupon è caratterizzat
 ### RBS.3.1 — Creazione/gestione coupon da parte dei gestori
 - WBS.3.1.1 Creazione del modello dati di un coupon con: titolo, descrizione, limiti, validità e locale promotore.
 - WBS.3.1.2 Sviluppo di un sistema per i locali di creazione, modifica e rimozione di un coupon.
-
-
-- WBS.3.1.3 Notifica in app dell'esito al gestore. (?)
 
 ### RBS.3.2 — Utilizzo del coupon da parte dei clienti
 - WBS.3.2.1 Sviluppo dell'interfaccia per i clienti per visualizzare i coupon.
@@ -69,8 +63,6 @@ Possiblità da parte dei clienti di recensire un locale. Ogni utente può segnal
 - WBS.4.3.1 Sviluppo di un sistema per segnalazione/gestione di recensioni inappropriate.
 - WBS.4.3.2 Sviluppo dell'interfaccia per segnalare delle recensioni inappropriate da parte di clienti e locali.
 - WBS.4.3.3 Sviluppo dell'interfaccia per visualizzare e gestire le segnalazioni per gli amministratori.
-
-- WBS.4.3.3 Notifica al segnalatore dell'esito della moderazione. (?)
 
 ## RBS.5 — Backend/API e Admin
 L'infrastruttura deve gestire i dati in maniera corretta e coerente.
