@@ -18,7 +18,7 @@
 - [I] `2_Documentazione_Progetto/2.2 Planning/2202_Work_Breakdown_Structure_WBS.md` — Obbligatorio
 - [I] `2_Documentazione_Progetto/2.2 Planning/2204_Stime_e_Fabbisogno_Risorse.md` — Obbligatorio
 - [ ] `2_Documentazione_Progetto/2.2 Planning/2203_Schedula_Gantt_e_Network_Diagram.md` — Obbligatorio
-- [ ] `2_Documentazione_Progetto/2.2 Planning/2205_Analisi_Costi_e_Budget.md` — Obbligatorio
+- [I] `2_Documentazione_Progetto/2.2 Planning/2205_Analisi_Costi_e_Budget.md` — Obbligatorio
 - [ ] `2_Documentazione_Progetto/2.2 Planning/2207_Analisi_Rischi_e_Mitigazione.md` — Obbligatorio
 - [ ] `2_Documentazione_Progetto/2.2 Planning/2206_Analisi_Cash_Flow.md` — Facoltativo (approfondisce la gestione della liquidità)
 - [ ] `2_Documentazione_Progetto/2.2 Planning/2201_Project_Definition_Statement_PDS.md` — Facoltativo (può essere inglobato nella proposta finale)

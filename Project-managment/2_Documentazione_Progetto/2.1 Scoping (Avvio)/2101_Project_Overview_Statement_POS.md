@@ -17,10 +17,10 @@ Progettare, sviluppare e lanciare entro luglio 2026 un’app mobile che concentr
 ## 3) Obiettivi (criteri S.M.A.R.T.)
 
 - **Lancio sugli store della prima release entro il 31/07/2026** — pubblicazione approvata su App Store e Google Play; Misura: distanza tra data di release prevista e release effettiva.
-- **Funzionalità per release** — Release 1 (R1): mappa geolocalizzata con i locali d'interesse e calendario eventi filtrabile; Release 2 (R2): coupon riscattabili; Release 3 (R3): recensioni con moderazione base; Misura: R2 deve essere rilasciata entro 6 mesi da R1; R3 entro sei mesi da R2.
+- **Funzionalità per release** — Release 1 (R1): mappa geolocalizzata con i locali d'interesse e calendario eventi filtrabile; Release 2 (R2): coupon riscattabili; Release 3 (R3): recensioni con moderazione base; Misura: R2 deve essere rilasciata entro 3 mesi da R1; R3 entro 3 mesi da R2.
 - **Coinvolgimento esercenti** — 75% dei locali del centro storico presenti sulla piattaforma entro 12 mesi dal lancio; Misura: numero esercenti registrati vs. totale censito.
 - **Qualità tecnica** — tempo di caricamento per il 95% delle viste principali < 2s e tasso di crash per sessione < 1%; Misura: report performance e crash.
-- **Sostenibilità economica** — raggiungere break-even entro 12 mesi dal rilascio tramite ricavi da sponsorship e advertising; Misura: ricavi - costi ≥ 0 €.
+- **Sostenibilità economica** — raggiungere break-even entro 6 mesi dal rilascio tramite ricavi da sponsorship e advertising; Misura: ricavi - costi ≥ 0 €.
 - **Promozione sui canali social** — attivare al lancio una campagna multicanale (Instagram, Facebook, TikTok) con piano editoriale dedicato per i primi 3 mesi; Misura: calendario editoriale approvato.
 
 ## 4) Criteri di Successo

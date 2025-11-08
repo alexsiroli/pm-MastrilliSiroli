@@ -1,30 +1,52 @@
 # 2205 — Analisi Costi e Budget — Ziradò
 
-Scopo: stimare e allocare costi per R1; evidenziare costi vivi vs valorizzazione ore interne (non a bilancio corso).
+## Scopo e allineamento
+- Riferimento a POS 2101: break-even entro 12 mesi tramite sponsorship/advertising e vincolo di budget iniziale minimo.
+- Coerenza con RBS 2102 e WBS 2202: le voci di costo seguono i pacchetti di lavoro effettivamente stimati (2204).
+- Campo di applicazione: Release R1–R3 previste nel piano (core experience, coupon, recensioni) e attività di lancio/aggiornamento.
 
-## Struttura dei Costi
-- OPEX vivi: dominio, hosting, asset store;
-- Manodopera: ore interne valorizzate per business case (non richieste ai fini corso).
+## Assunzioni economiche
+- Team: Alice (backend/admin) e Alex (frontend/growth); nessun compenso diretto ma valorizziamo le ore per valutare sostenibilità.
+- Metodo di stima: Three-Point (O/M/P) con conversione 15 h/settimana/persona, come da doc 2204.
+- Tariffa di valorizzazione: 25 €/h (benchmark freelance entry-level in ambito mobile).
+- Periodo considerato: periodo di sviluppo delle tre release + 12 mesi di esercizio per coprire hosting e dominio.
 
-## Budget per Attività (valorizzazione ore interne 25€/h)
-| ID | Nome | Costo Manodopera | Costi Diretti | Costi Indiretti | Totale |
-|---|---|---|---|---|---|
-| WBS.3.2 | API Luoghi | 24h×25€=600€ | 0€ | 0€ | 600€ |
-| WBS.4.2 | Vista mappa | 32h×25€=800€ | 0€ | 0€ | 800€ |
-| WBS.7.3 | Submission store | 16h×25€=400€ | 0€ | 0€ | 400€ |
+## Struttura dei costi
+- **Costi diretti:** uscite di cassa necessarie per abilitare pubblicazione e infrastruttura (licenze store, dominio, hosting, budget marketing).
+- **Valorizzazione manodopera:** ore dei founder convertite in euro per avere un riferimento economico e per definire la soglia di successo (anche se non fatturate). 783 h complessive → 19.575 € di lavoro founder.
+- **Riserve/contingenza:** cuscinetto del 10% per assorbire slittamenti su attività di marketing, moderazione o infrastruttura.
 
-## Costi Vivi Stimati
-- Dominio: 15€; Hosting: 10€/mese (M1–M3=30€); Asset store: 0–20€ → Totale vivi: ~45–65€.
+### Costi diretti
+| Voce | WBS / Deliverable | Quantità | Costo (€) | Note e allocazione |
+| --- | --- | --- | --- | --- |
+| Apple Developer Program | WBS.7.1 / submission store | 1 canone annuo | **94** | Attiva R1 ma abilita anche R2–R3. |
+| Google Play Console | WBS.7.1 | Una tantum | **25** | Pagato una sola volta prima del lancio R1. |
+| Dominio + DNS | WBS.7.3 | 1 canone annuo  | **15** | zirado.it con gestione DNS. |
+| Hosting Firebase con mappe | RBS.1, RBS.5 | 10 €/mese × 12 mesi | **120** | Include DB, storage asset e mappe. |
+| Budget contenuti e ADV | RBS.7.3 | 50 €/mese × 3 mesi | **150** | Promozione social per lancio e due update. |
+| **Totale costi diretti** |  |  | **404** |
 
-### Metodologia di stima
-I costi vivi sono minimizzati adottando servizi con free tier e ottimizzando asset. La manodopera è valorizzata per il business case e per confronti futuri, pur non essendo un costo del corso.
+### Valorizzazione manodopera founder
+> Ore totali dal file Stime_e_Fabbisogno_Risorse. Il valore non viene pagato ma rappresenta l'investimento di tempo che dovremmo recuperare per considerarci "in pari".
 
-## Sintesi Budget e Riserve (business case)
-| Voce | Importo |
-|---|---|
-| Subtotale manodopera | ~7.500€ |
-| Costi vivi | ~65€ |
-| Riserve contingenza (10%) | ~750€ |
-| Budget baseline (BC) | ~8.315€ |
+#### Sintesi per release
+| Release | Ore Alice | Ore Alex | Ore totali | Valore 25 €/h |
+| --- | --- | --- | --- | --- |
+| R1 — Core | 281 h | 230 h | **511 h** | **12.775 €** |
+| R2 — Coupon | 56 h | 60 h | **116 h** | **2.900 €** | 
+| R3 — Recensioni | 77 h | 79 h | **156 h** | **3.900 €** |
+| **Totale** | **414 h** | **369 h** | **783 h** | **19.575 €** |
 
-Nota: ai fini dell’elaborato il costo economico è trascurabile (ore studente non fatturate); il BC supporta analisi e confronto future.
+
+## Budget complessivo e riserve
+| Voce | Importo (€) |
+| --- | --- |
+| Valorizzazione manodopera founder | **19.575** | 
+| Costi diretti | **404** | 
+| Riserve (10% manodopera) | **1.958** | 
+| **Totale costi** | **21.967** | 
+
+## Soglie di successo economico
+- **Break-even di cassa (POS):** bastano ~500 € di ricavi sponsorship/ADV entro 6 mesi per coprire i costi diretti, in linea con il criterio del POS.
+- **Break-even valorizzato:** includendo il valore del nostro tempo il progetto "va in pari" dopo 19.575 € di ricavi (21.967 € considerando le riserve). Questa è la soglia che usiamo per valutare se l'iniziativa ripaga il tempo investito dagli startupper.
+- **Monitoraggio per release:** R1 assorbe il 65% del valore del progetto (12.775 €). Ogni rilascio successivo deve portare almeno 3.000 € di entrate nette cumulative per giustificare l'evoluzione funzionale.
