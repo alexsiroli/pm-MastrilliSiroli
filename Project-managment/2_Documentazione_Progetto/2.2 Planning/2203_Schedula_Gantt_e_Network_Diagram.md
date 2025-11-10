@@ -1,85 +1,92 @@
 # 2203 — Schedula Gantt e Network Diagram — Ziradò
 
-Documento basato su POS (2101), WBS (2202), stime risorse (2204) e budget (2205). Descrive la sequenza temporale delle release R1‑R3 e le dipendenze chiave per il network diagram.
+# Release 1 — Core Experience (R1)
 
-## Assunzioni di schedulazione
-- Capacità disponibile: 30 h/sett (15 h per persona) come da 2204; sprint bisettimanali.
-- Baseline calendario: partenza **lunedì 01/12/2025**; settimane 24/12/2025–07/01/2026 e 01/04/2026–08/04/2026 sono non lavorative e vengono escluse dal conteggio.
-- Unità temporale: **giorni effettivi** (3 h lavorative reali) convertiti in settimane di calendario.
-- Vincoli POS: R1 (MVP) entro 31/07/2026; R2 e R3 entro 3 mesi uno dall’altro.
-- Strategia: sviluppo incrementale → R1 (core), R2 (coupon), R3 (recensioni); ogni release include regressione non funzionale e submission store (WBS.7.4).
-- Dipendenze: prevalentemente Finish‑to‑Start; alcune attività di content/marketing possono essere in Start‑to‑Start con i test finali.
+**Calendario**: lun–ven. **Festività ignorate**: 2025-12-24→2026-01-07 e 2026-04-01→2026-04-08. **Start**: 2025-12-01.
 
-## Roadmap 2025–2026
-| Milestone/Release | Periodo | Durata stimata | Deliverable principali | Note |
-|---|---|---|---|---|
-| Kick-off + setup stack (M0) | 01/12/2025 – 14/12/2025 | 2 sett | Ambienti, login/admin base (WBS.5.1) | baseline processi PMLC ibrido |
-| **R1 — Core (Mappa + Eventi + Notifiche)** | 15/12/2025 – 30/06/2026 | 20 sett + 3 sett buffer (al netto delle pause) | RBS.1, RBS.2, RBS.5, RBS.6, RBS.7, RBS.8 | Include stop 24/12–07/01 e 01/04–08/04; Go-Live previsto 03/07 |
-| **R2 — Coupon & promo** | 08/07/2026 – 04/08/2026 | 4 sett | RBS.3, notifiche coupon, campagna update | Release 2 sugli store 08/08 |
-| **R3 — Recensioni & moderazione** | 05/08/2026 – 15/09/2026 | 6 sett | RBS.4, notifiche recensioni, regressione | Release 3 e comunicazione finale 18/09 |
-| Operatività e monitoraggio | Settembre–Dicembre 2026 | — | KPI, sponsorship, gestione contenuti | copre break-even entro 6 mesi dal lancio (POS) |
+TODO Cambiare le date in italiano e la priam data del primo vero task è il 1/12. il 1.2.4 (controllo accesibilita) va tolto da qui, wbs e sitma,
+fai in modo che l'ordine dell'esecuziuone dei task wbs siano coerenti con il loro numero di wbs ma il rbs.7.2 e il rbs.7.3 devono essere fatti alla fine della release 1
 
-## Gantt R1 — macro-fasi e sprint
-La schedula di R1 è articolata in 10 sprint bisettimanali (20 settimane). Ogni fase sotto aggrega i pacchetti WBS indicati in 2202/2204; la colonna “Timeline” mostra la posizione relativa sul semestre (▉ = una settimana).
+| **Task id** | **Task description**                                                   | **Effort (person-days)** | **Resources allocated** | **Predecessor** | **Start date** | **Finish date** |
+| ----------: | ---------------------------------------------------------------------- | -----------------------: | ----------------------- | --------------- | -------------: | --------------: |
+|           1 | Start                                                          |                        0 | —                       |                 |     2025-12-01 |      2025-12-01 |
+|           2 | WBS.1.1.1 — Creazione modello dati scheda locale                       |                        3 | Alice                   | 1               |     2025-12-02 |      2025-12-04 |
+|           3 | WBS.1.1.2 — Raccolta informazioni di ogni locale                       |                        7 | Alex                    | 1               |     2025-12-02 |      2025-12-10 |
+|           4 | WBS.1.1.4 — Sviluppo azioni rapide (call, mappa, share)                |                        5 | Alex                    | 3               |     2025-12-11 |      2025-12-17 |
+|           5 | WBS.1.2.1 — Progettazione e sviluppo mappa interattiva                 |                       10 | Alice                   | 2               |     2025-12-05 |      2025-12-18 |
+|           6 | WBS.1.3.1 — Definizione e caricamento tipologie locali                 |                        4 | Alice                   | 5               |     2025-12-19 |      2026-01-08 |
+|           7 | WBS.2.1.1 — Creazione modello dati evento                              |                        3 | Alice                   | 6               |     2026-01-09 |      2026-01-13 |
+|           8 | WBS.5.1.1 — Sviluppo Login/Registrazione                               |                        5 | Alice                   | 7               |     2026-01-14 |      2026-01-20 |
+|           9 | WBS.5.1.2 — Gestione interfacce coerenti con il ruolo                  |                        4 | Alex                    | 4               |     2025-12-18 |      2025-12-23 |
+|          10 | WBS.5.2.1 — Sviluppo portale admin                                     |                        7 | Alice                   | 8               |     2026-01-21 |      2026-01-29 |
+|          11 | WBS.6.1.1 — Sviluppo di un sistema di notifiche                        |                        6 | Alice                   | 10              |     2026-01-30 |      2026-02-06 |
+|          12 | WBS.7.1.1 — Preparazione asset store (descrizioni, screenshot, policy) |                        5 | Alex                    | 9               |     2026-01-08 |      2026-01-14 |
+|          13 | WBS.7.1.2 — Caricamento e pubblicazione finale sugli store             |                        6 | Alice                   | 11              |     2026-02-09 |      2026-02-16 |
+|          14 | WBS.7.2.1 — Progettazione sezione sponsor/advertising                  |                        5 | Alex                    | 12              |     2026-01-15 |      2026-01-21 |
+|          15 | WBS.7.2.2 — Implementazione componenti advertising                     |                        8 | Alice                   | 13              |     2026-02-17 |      2026-02-26 |
+|          16 | WBS.7.3.1 — Creazione canali social e brand identity                   |                        4 | Alex                    | 14              |     2026-01-22 |      2026-01-27 |
+|          17 | WBS.7.3.2 — Piano editoriale e produzione contenuti                    |                        7 | Alice                   | 15              |     2026-02-27 |      2026-03-09 |
+|          18 | WBS.8.1.1 — Performance test                                           |                        4 | Alice                   | 17              |     2026-03-10 |      2026-03-13 |
+|          19 | WBS.8.2.1 — Monitoraggio crash                                         |                        4 | Alice                   | 18              |     2026-03-16 |      2026-03-19 |
+|          20 | WBS.8.3.1 — Valutazione GDPR e consensi                                |                        4 | Alex                    | 16              |     2026-01-28 |      2026-02-02 |
+|          21 | WBS.8.4.1 — Conformità store                                           |                        4 | Alex                    | 20              |     2026-02-03 |      2026-02-06 |
+|          22 | WBS.8.5.1 — Rispetto accessibilità base                                |                        4 | Alex                    | 21              |     2026-02-09 |      2026-02-12 |
+|          23 | WBS.1.1.3 — Sviluppo operazioni CRUD del locale                        |                        7 | Alice                   | 2, 19           |     2026-03-20 |      2026-03-30 |
+|          24 | WBS.1.2.2 — Raccolta coordinate geografiche dai locali                 |                        2 | Alex                    | 3, 22           |     2026-02-13 |      2026-02-16 |
+|          25 | WBS.2.2.1 — Sviluppo operazioni CRUD su eventi                         |                        7 | Alice                   | 7, 23           |     2026-03-31 |      2026-04-16 |
+|          26 | WBS.2.3.1 — Sviluppo di un calendario con eventi                       |                        8 | Alice                   | 7, 25           |     2026-04-17 |      2026-04-28 |
+|          27 | WBS.2.3.2 — Sviluppo di una lista di eventi                            |                        4 | Alice                   | 7, 26           |     2026-04-29 |      2026-05-04 |
+|          28 | WBS.2.3.3 — Sistema di filtraggio degli eventi                         |                        6 | Alex                    | 6, 7, 24        |     2026-02-17 |      2026-02-24 |
+|          29 | WBS.6.1.2 — Gestione trigger clienti                                   |                        4 | Alice                   | 11, 27          |     2026-05-05 |      2026-05-08 |
+|          30 | WBS.6.1.4 — Trigger automatici                                         |                        1 | Alice                   | 11, 29          |     2026-05-11 |      2026-05-11 |
+|          31 | WBS.7.3.3 — Scheduling pubblicazioni e gestione community              |                        5 | Alex                    | 16, 28          |     2026-02-25 |      2026-03-03 |
+|          32 | WBS.1.2.3 — Caricamento locali come punti in mappa                     |                        7 | Alex                    | 24, 31          |     2026-03-04 |      2026-03-12 |
+|          33 | WBS.2.2.2 — Validazioni form di creazione/modifica evento              |                        4 | Alex                    | 25, 32          |     2026-04-17 |      2026-04-22 |
+|          34 | WBS.6.1.3 — Interfaccia per scegliere le notifiche                     |                        3 | Alex                    | 29, 33          |     2026-05-11 |      2026-05-13 |
+|          35 | WBS.1.2.4 — Controllo principi di accessibilità                        |                        4 | Alex                    | 32, 34          |     2026-05-14 |      2026-05-19 |
+|          36 | WBS.1.3.2 — Sviluppo sistema filtraggio locali                         |                        6 | Alex                    | 6, 32, 35       |     2026-05-20 |      2026-05-27 |
+|          37 | Finish — Finish                                                        |                        0 | —                       | 36              |     2026-05-27 |      2026-05-27 |
 
-| # | Fase (Sprint) | Periodo | Durata eff. (gg) | Timeline | WBS principali / Owner | Dipendenze & Output |
-|---|---|---|---|---|---|---|
-| 1 | Setup stack & governance | 01/12/2025 – 12/12/2025 | 9 | `▉▉` | WBS.5.1.1 (Alice), WBS.5.1.2 (Alex) | Kick-off → ambienti, autenticazione base, baseline backlog |
-| 2 | Modello + dataset locali | 15/12/2025 – 17/01/2026 | 10 | `▉▉` | WBS.1.1.1 (Alice), WBS.1.1.2 (Alex) | FS da fase 1 → schema dati, raccolta info esercenti (pausa 24/12–07/01) |
-| 3 | CRUD locali e azioni rapide | 20/01/2026 – 31/01/2026 | 12 | `▉▉▉` | WBS.1.1.3 (Alice), WBS.1.1.4 (Alex) | Richiede dataset stabile → gestione contenuti + quick actions |
-| 4 | Geolocalizzazione & rendering mappa | 03/02/2026 – 07/03/2026 | 23 | `▉▉▉▉▉` | WBS.1.2.1/1.2.3 (Alice), WBS.1.2.2/1.2.4 (Alex) | Dipende da CRUD completato → mappa interattiva con punti accessibili |
-| 5 | Tipologie e filtri | 09/03/2026 – 20/03/2026 | 10 | `▉▉` | WBS.1.3.1 (Alice), WBS.1.3.2 (Alex) | FS da geolocalizzazione → filtri mappa funzionanti |
-| 6 | Sezione Eventi (data + UI) | 23/03/2026 – 03/05/2026 | 32 | `▉▉▉▉▉▉` | WBS.2.1–2.3 (Alice + Alex) | Richiede filtri attivi → calendario e lista eventi; pausa 01/04–08/04 |
-| 7 | Portale admin e sponsor base | 09/04/2026 – 24/05/2026 | 13 | `▉▉▉` | WBS.5.2.1 (Alice), WBS.7.2.1 (Alex) | SS con fase 6 → gestione contenuti e prime view sponsor; riparte 09/04 post pausa |
-| 8 | Sistema notifiche core | 26/05/2026 – 05/06/2026 | 14 | `▉▉▉` | WBS.6.1.* (Alice+Alex) | Dipende da eventi e admin → trigger utenti e preferenze |
-| 9 | QA, performance, compliance | 08/06/2026 – 26/06/2026 | 20 | `▉▉▉▉` | WBS.8.1–8.5 (team) | FS da notifiche → test performance, crash, GDPR, accessibilità |
-| 10 | Contenuti marketing, beta e store | 03/06/2026 – 30/06/2026 | 34 | `▉▉▉▉▉▉` | WBS.7.1.*, WBS.7.2.2, WBS.7.3.* | Overlap con QA (SS) → asset store, campagne social, beta interna, submission |
+# Release 2 — Coupon/Offerte (R2)
 
-**Carico risorse:** la somma delle durate per fase replica i 177 gg eff. di R1 (2204). Alex concentra 230 h su front-end, filtri, marketing; Alice 281 h su backend/mobile, QA e store. Overlap intenzionale (fasi 6–10) per evitare tempi morti data la capacità limitata del team di 2 persone.
+**Calendario**: lun–ven. **Start**: 2026-08-01.
 
-## Pianificazione R2 e R3
-Release leggere gestite in “minisprint” di due settimane, mantenendo la stessa logica FS.
+| **Task id** | **Task description**                                          | **Effort (person-days)** | **Resources allocated** | **Predecessor** | **Start date** | **Finish date** |
+| ----------: | ------------------------------------------------------------- | -----------------------: | ----------------------- | --------------- | -------------: | --------------: |
+|           1 | Start — Start                                                 |                        0 | —                       |                 |     2026-08-01 |      2026-08-01 |
+|           2 | WBS.3.1.1 — Creazione modello dati coupon                     |                        3 | Alice                   | 1               |     2026-08-03 |      2026-08-05 |
+|           3 | WBS.6.2.1 — Trigger notifica clienti su nuovi coupon          |                        4 | Alice                   | 2               |     2026-08-06 |      2026-08-11 |
+|           4 | WBS.6.2.2 — Preferenze notifiche coupon in app cliente        |                        3 | Alex                    | 1               |     2026-08-03 |      2026-08-05 |
+|           5 | WBS.7.4.2 (R2) — Comunicazione release note e annuncio social |                        3 | Alex                    | 4               |     2026-08-06 |      2026-08-10 |
+|           6 | WBS.8.6.1 (R2) — Regression performance/stabilità post-R2     |                        3 | Alice                   | 3               |     2026-08-12 |      2026-08-14 |
+|           7 | WBS.8.6.2 (R2) — Verifica privacy/compliance store post-R2    |                        2 | Alex                    | 5               |     2026-08-11 |      2026-08-12 |
+|           8 | WBS.3.1.2 — Sviluppo operazioni CRUD per coupon               |                        7 | Alice                   | 2, 6            |     2026-08-17 |      2026-08-25 |
+|           9 | WBS.3.2.1 — Interfaccia clienti per visualizzare i coupon     |                        6 | Alex                    | 7, 8            |     2026-08-26 |      2026-09-02 |
+|          10 | WBS.3.2.2 — Sistema per utilizzare i coupon                   |                        7 | Alex                    | 9               |     2026-09-03 |      2026-09-11 |
+|          11 | WBS.7.4.1 (R2) — Submission aggiornamento R2 sugli store      |                        3 | Alice                   | 8, 10           |     2026-09-14 |      2026-09-16 |
+|          12 | Finish — Finish                                               |                        0 | —                       | 11              |     2026-09-16 |      2026-09-16 |
 
-| Release | Sprint | Periodo | Durata (gg) | WBS coinvolti | Dipendenze e Deliverable |
-|---|---|---|---|---|---|
-| **R2** | S11 | 08/07/2026 – 21/07/2026 | 14 | WBS.3.1.*, WBS.3.2.1 | Richiede base R1 → data model coupon + CRUD gestori |
-| | S12 | 22/07/2026 – 04/08/2026 | 13 | WBS.3.2.2, WBS.6.2.*, WBS.7.4.*, WBS.8.6.* | UI cliente, redemption, notifiche coupon, regression test, submission e comunicazione social |
-| **R3** | S13 | 05/08/2026 – 18/08/2026 | 14 | WBS.4.1.*, WBS.4.2.1 | Definizione rating e modello recensioni |
-| | S14 | 19/08/2026 – 01/09/2026 | 14 | WBS.4.2.2–4.3.1 | UI recensioni, moderazione, workflow segnalazioni |
-| | S15 | 02/09/2026 – 15/09/2026 | 14 | WBS.4.3.2–4.3.3, WBS.6.3.1, WBS.7.4.*, WBS.8.6.* | Notifiche recensioni, regressione, submission e annuncio finale |
+# Release 3 — Recensioni & Moderazione (R3)
 
-Le durate per R2 (41 gg) e R3 (56 gg) coincidono con le stime in 2204; ogni release mantiene 1 sprint per sviluppo feature e 1 sprint per integrazione+QA.
+**Calendario**: lun–ven. **Start**: 2026-10-15.
 
-## Network Diagram R1
-Per la rete logica usiamo nodi equivalenti ai pacchetti principali del Gantt. Le durate sono in giorni effettivi.
+| **Task id** | **Task description**                                                               | **Effort (person-days)** | **Resources allocated** | **Predecessor** | **Start date** | **Finish date** |
+| ----------: | ---------------------------------------------------------------------------------- | -----------------------: | ----------------------- | --------------- | -------------: | --------------: |
+|           1 | Start — Start                                                                      |                        0 | —                       |                 |     2026-10-15 |      2026-10-15 |
+|           2 | WBS.4.1.1 — Definizione dei punti di valutazione                                   |                        3 | Alex                    | 1               |     2026-10-16 |      2026-10-20 |
+|           3 | WBS.6.3.1 — Notifiche clienti su nuove recensioni/risposte e segnalazioni moderate |                        4 | Alice                   | 1               |     2026-10-16 |      2026-10-21 |
+|           4 | WBS.4.1.2 — Sistema per valutare il locale in base ai punti                        |                        7 | Alice                   | 3               |     2026-10-22 |      2026-10-30 |
+|           5 | WBS.4.1.3 — Analisi dei punteggi per locale                                        |                        6 | Alex                    | 2               |     2026-10-21 |      2026-10-28 |
+|           6 | WBS.4.1.4 — Interfaccia per visualizzare valutazioni a punti                       |                        3 | Alex                    | 4, 5            |     2026-10-29 |      2026-11-02 |
+|           7 | WBS.4.2.1 — Creazione modello dati recensione                                      |                        3 | Alice                   | 4               |     2026-11-02 |      2026-11-04 |
+|           8 | WBS.4.2.2 — Interfaccia per recensire un locale                                    |                        3 | Alex                    | 7, 6            |     2026-11-03 |      2026-11-05 |
+|           9 | WBS.4.2.3 — Interfaccia per visualizzare recensioni testuali                       |                        3 | Alex                    | 8               |     2026-11-06 |      2026-11-10 |
+|          10 | WBS.4.3.1 — Sistema per segnalare/gestire recensioni inappropriate                 |                        7 | Alice                   | 7               |     2026-11-05 |      2026-11-13 |
+|          11 | WBS.4.3.2 — Interfaccia per segnalare recensioni                                   |                        3 | Alex                    | 10, 9           |     2026-11-11 |      2026-11-13 |
+|          12 | WBS.4.3.3 — Interfaccia admin per gestire le segnalazioni                          |                        3 | Alex                    | 10, 11          |     2026-11-16 |      2026-11-18 |
+|          13 | WBS.8.6.1 (R3) — Regression performance/stabilità post-R3                          |                        3 | Alice                   | 10              |     2026-11-16 |      2026-11-18 |
+|          14 | WBS.7.4.1 (R3) — Submission aggiornamento R3 sugli store                           |                        3 | Alice                   | 12, 13          |     2026-11-19 |      2026-11-23 |
+|          15 | WBS.7.4.2 (R3) — Comunicazione release note e annuncio social                      |                        3 | Alex                    | 12              |     2026-11-19 |      2026-11-23 |
+|          16 | WBS.8.6.2 (R3) — Verifica privacy/compliance store post-R3                         |                        2 | Alex                    | 15              |     2026-11-24 |      2026-11-25 |
+|          17 | Finish — Finish                                                                    |                        0 | —                       | 14              |     2026-12-01 |      2026-12-01 |
 
-| Nodo | Durata (gg) | Attività (WBS) | Predecessori | Successori |
-|---|---|---|---|---|
-| N0 | 9 | Setup stack, auth base (5.1.1–5.1.2) | — | N1 |
-| N1 | 10 | Modello dati + dataset locali (1.1.1–1.1.2) | N0 | N2 |
-| N2 | 12 | CRUD locali + azioni rapide (1.1.3–1.1.4) | N1 | N3 |
-| N3 | 23 | Mappa e geolocalizzazione (1.2.1–1.2.4) | N2 | N4 |
-| N4 | 10 | Tipologie e filtri (1.3.1–1.3.2) | N3 | N5 |
-| N5 | 32 | Sezione eventi (2.1–2.3) | N4 | N6 |
-| N6 | 7 | Portale admin (5.2.1) | N5 | N7 |
-| N7 | 14 | Notifiche (6.1.1–6.1.4) | N6 | N8 |
-| N8 | 20 | QA/NFR (8.1–8.5) | N7 | N9 |
-| N9 | 11 | Asset store + submission (7.1.1–7.1.2) | N8 | N10 |
-| N10 | 13 | Sponsorizzazioni e campagne (7.2.*, 7.3.*) | N9 | N11 |
-| N11 | 3 | Beta test + Go/No-Go (7.1.2, 7.3.3) | N10 | — |
-
-### Critical Path
-- **CP:** N0 → N1 → N2 → N3 → N4 → N5 → N6 → N7 → N8 → N9 → N11  
-  (le attività marketing/sponsorizzazioni, N10, hanno slack di 2 gg perché possono terminare in parallelo al completamento QA).
-- Durata complessiva CP ≈ 166 gg eff. → ~20 settimane + buffer (coerente con 2204).
-- In termini di calendario equivale al periodo **01/12/2025 – 30/06/2026**, con le settimane 24/12–07/01 e 01/04–08/04 escluse dal conteggio.
-- Slack principali: filtri eventi/liste (parte di N5) possiede 2 gg di galleggio, utilizzati per retesting dati; le attività social (7.3.1‑7.3.3) hanno 4 gg di slack e possono iniziare prima della fine di N8.
-
-### Network R2/R3 (sintesi)
-- R2 CP: Coupon data model → CRUD coupon → UI cliente → redemption → notifiche coupon → regression → submission (durata 41 gg). Nessun slack significativo: la submission (WBS.7.4.1) dipende dal completamento del flusso cliente.
-- R3 CP: Configurazione punteggi → UI recensioni → moderazione → notifiche recensioni → regression → submission. Durata 56 gg con 3 gg di slack su comunicazione social.
-
-## Governance e controllo
-- Aggiornamento Gantt ogni sprint review; Earned Value semplice (planned vs actual hours) sfruttando le ore di 2204.
-- Metriche di gating: completezza pacchetti WBS, difetti aperti < 5 prima dello store upload, checklist GDPR/Store (WBS.8.3.1 + 8.4.1) firmata.
-- Il buffer di ~2 settimane tra fine sviluppo R1 e Go-Live copre i rischi catalogati in 2207 (store review, contenuti, carico team). R2 e R3 ereditano lo stesso schema con 2 gg di buffer interno per eventuali re-submit.
