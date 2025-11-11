@@ -17,19 +17,17 @@
 - [ ] `1_Descrizione_Approccio/20_Planning_Approccio.md` — Obbligatorio
 - [I] `2_Documentazione_Progetto/2.2 Planning/2202_Work_Breakdown_Structure_WBS.md` — Obbligatorio
 - [I] `2_Documentazione_Progetto/2.2 Planning/2204_Stime_e_Fabbisogno_Risorse.md` — Obbligatorio
-- [ ] `2_Documentazione_Progetto/2.2 Planning/2203_Schedula_Gantt_e_Network_Diagram.md` — Obbligatorio
+- [I] `2_Documentazione_Progetto/2.2 Planning/2203_Schedula_Gantt_e_Network_Diagram.md` — Obbligatorio
 - [I] `2_Documentazione_Progetto/2.2 Planning/2205_Analisi_Costi_e_Budget.md` — Obbligatorio
-- [ ] `2_Documentazione_Progetto/2.2 Planning/2207_Analisi_Rischi_e_Mitigazione.md` — Obbligatorio
-- [ ] `2_Documentazione_Progetto/2.2 Planning/2206_Analisi_Cash_Flow.md` — Facoltativo (approfondisce la gestione della liquidità)
-- [ ] `2_Documentazione_Progetto/2.2 Planning/2201_Project_Definition_Statement_PDS.md` — Facoltativo (può essere inglobato nella proposta finale)
-- [ ] `2_Documentazione_Progetto/2.2 Planning/2208_Project_Proposal_Finale.md` — Obbligatorio
+- [TODOS] `2_Documentazione_Progetto/2.2 Planning/2207_Analisi_Rischi_e_Mitigazione.md` — Obbligatorio
+- [TODOS] `2_Documentazione_Progetto/2.2 Planning/2201_Project_Definition_Statement_PDS.md` — Facoltativo (può essere inglobato nella proposta finale)
 - [ ] `1_Descrizione_Approccio/21_Meeting_Planning_JPPS_Sintesi.md` — Obbligatorio
 
 ## Fase 3 · Launching / Execution
 - [ ] `1_Descrizione_Approccio/30_Launching_Execution_Approccio.md` — Obbligatorio
-- [ ] `2_Documentazione_Progetto/2.3 Esecuzione/2301_Team_Operating_Rules.md` — Obbligatorio
-- [ ] `2_Documentazione_Progetto/2.3 Esecuzione/2302_Matrice_Responsabilita_RASCI.md` — Obbligatorio
-- [ ] `2_Documentazione_Progetto/2.3 Esecuzione/2303_Scope_Change_Request_Form.md` — Obbligatorio
+- [TODOM] `2_Documentazione_Progetto/2.3 Esecuzione/2301_Team_Operating_Rules.md` — Obbligatorio
+- [TODOM] `2_Documentazione_Progetto/2.3 Esecuzione/2302_Matrice_Responsabilita_RASCI.md` — Obbligatorio
+- [TODOM] `2_Documentazione_Progetto/2.3 Esecuzione/2303_Scope_Change_Request_Form.md` — Obbligatorio
 - [ ] `1_Descrizione_Approccio/31_Meeting_Kickoff_Sintesi.md` — Obbligatorio
 
 ## Fase 4 · Monitoring & Controlling
