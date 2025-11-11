@@ -5,6 +5,13 @@
 **Calendario**: lun–ven. **Festività non lavorative ignorate**: **24/12/2025→07/01/2026** e **01/04/2026→08/04/2026**.
 **Start**: **01/12/2025**.
 
+# 2203 — **Schedula Gantt e Network Diagram — Ziradò**
+
+## **Release 1 — Core Experience (R1)**
+
+**Calendario**: lun–ven. **Festività non lavorative ignorate**: **24/12/2025→07/01/2026** e **01/04/2026→08/04/2026**.
+**Start**: **01/12/2025**.
+
 | **Task id** | **Task description**                                                   | **Effort (person-days)** | **Resources allocated** | **Predecessor** | **Start date** | **Finish date** |
 | ----------: | ---------------------------------------------------------------------- | -----------------------: | ----------------------- | --------------- | -------------: | --------------: |
 |           1 | Start                                                                  |                        0 | —                       |                 | **01/12/2025** |  **01/12/2025** |
@@ -27,21 +34,21 @@
 |          18 | WBS.5.1.2 — Gestione interfacce coerenti con il ruolo                  |                        4 | Alex                    | 17              | **31/03/2026** |  **13/04/2026** |
 |          19 | WBS.5.2.1 — Sviluppo portale admin                                     |                        7 | Alice                   | 17              | **14/04/2026** |  **22/04/2026** |
 |          20 | WBS.6.1.1 — Sviluppo di un sistema di notifiche                        |                        6 | Alice                   | 19              | **23/04/2026** |  **30/04/2026** |
-|          21 | WBS.6.1.2 — Gestione trigger clienti                                   |                        4 | Alice                   | 20              | **31/03/2026** |  **13/04/2026** |
-|          22 | WBS.6.1.3 — Interfaccia per scegliere le notifiche                     |                        3 | Alex                    | 21              | **14/04/2026** |  **16/04/2026** |
-|          23 | WBS.6.1.4 — Trigger automatici                                         |                        1 | Alice                   | 21              | **14/04/2026** |  **14/04/2026** |
-|          24 | WBS.7.1.1 — Preparazione asset store (descrizioni, screenshot, policy) |                        5 | Alex                    | 22              | **17/04/2026** |  **23/04/2026** |
-|          25 | WBS.7.1.2 — Caricamento e pubblicazione finale sugli store             |                        6 | Alice                   | 24, 23          | **24/04/2026** |  **01/05/2026** |
-|          26 | WBS.7.2.1 — Progettazione sezione sponsor/advertising                  |                        5 | Alex                    | 25              | **04/05/2026** |  **08/05/2026** |
-|          27 | WBS.7.2.2 — Implementazione componenti advertising                     |                        8 | Alice                   | 26              | **11/05/2026** |  **20/05/2026** |
-|          28 | WBS.7.3.1 — Creazione canali social e brand identity                   |                        4 | Alex                    | 27              | **21/05/2026** |  **26/05/2026** |
-|          29 | WBS.7.3.2 — Piano editoriale e produzione contenuti                    |                        7 | Alice                   | 28              | **27/05/2026** |  **04/06/2026** |
-|          30 | WBS.7.3.3 — Scheduling pubblicazioni e gestione community              |                        5 | Alex                    | 28              | **27/05/2026** |  **02/06/2026** |
-|          31 | WBS.8.1.1 — Performance test                                           |                        4 | Alice                   | 30              | **05/06/2026** |  **10/06/2026** |
-|          32 | WBS.8.2.1 — Monitoraggio crash                                         |                        4 | Alice                   | 31              | **11/06/2026** |  **16/06/2026** |
-|          33 | WBS.8.3.1 — Valutazione GDPR e consensi                                |                        4 | Alex                    | 30              | **03/06/2026** |  **08/06/2026** |
-|          34 | WBS.8.4.1 — Conformità store                                           |                        4 | Alex                    | 33              | **09/06/2026** |  **12/06/2026** |
-|          35 | Finish — Finish                                                        |                        0 | —                       | 32, 34          | **17/06/2026** |  **17/06/2026** |
+|          21 | WBS.6.1.2 — Gestione trigger clienti                                   |                        4 | Alice                   | 20              | **01/05/2026** |  **06/05/2026** |
+|          22 | WBS.6.1.3 — Interfaccia per scegliere le notifiche                     |                        3 | Alex                    | 21              | **07/05/2026** |  **11/05/2026** |
+|          23 | WBS.6.1.4 — Trigger automatici                                         |                        1 | Alice                   | 21              | **07/05/2026** |  **07/05/2026** |
+|          24 | WBS.7.1.1 — Preparazione asset store (descrizioni, screenshot, policy) |                        5 | Alex                    | 22              | **12/05/2026** |  **18/05/2026** |
+|          25 | WBS.7.2.1 — Progettazione sezione sponsor/advertising                  |                        5 | Alex                    | 24              | **19/05/2026** |  **25/05/2026** |
+|          26 | WBS.7.2.2 — Implementazione componenti advertising                     |                        8 | Alice                   | 25              | **25/05/2026** |  **03/06/2026** |
+|          27 | WBS.7.3.1 — Creazione canali social e brand identity                   |                        4 | Alex                    | 26              | **04/06/2026** |  **09/06/2026** |
+|          28 | WBS.7.3.2 — Piano editoriale e produzione contenuti                    |                        7 | Alice                   | 27              | **10/06/2026** |  **18/06/2026** |
+|          29 | WBS.7.3.3 — Scheduling pubblicazioni e gestione community              |                        5 | Alex                    | 27              | **10/06/2026** |  **16/06/2026** |
+|          30 | WBS.8.1.1 — Performance test                                           |                        4 | Alice                   | 29              | **17/06/2026** |  **22/06/2026** |
+|          31 | WBS.8.2.1 — Monitoraggio crash                                         |                        4 | Alice                   | 30              | **23/06/2026** |  **26/06/2026** |
+|          32 | WBS.8.3.1 — Valutazione GDPR e consensi                                |                        4 | Alex                    | 29              | **17/06/2026** |  **22/06/2026** |
+|          33 | WBS.8.4.1 — Conformità store                                           |                        4 | Alex                    | 32              | **23/06/2026** |  **26/06/2026** |
+|          34 | WBS.7.1.2 — Caricamento e pubblicazione finale sugli store             |                        6 | Alice                   | 33              | **29/06/2026** |  **06/07/2026** |
+|          35 | Finish — Finish                                                        |                        0 | —                       | 34              | **06/07/2026** |  **06/07/2026** |
 
 ---
 
@@ -85,7 +92,7 @@
 |          11 | WBS.4.3.2 — Interfaccia per segnalare recensioni                                   |                        3 | Alex                    | 10, 9           | **11/11/2026** |  **13/11/2026** |
 |          12 | WBS.4.3.3 — Interfaccia admin per gestire le segnalazioni                          |                        3 | Alex                    | 10, 11          | **16/11/2026** |  **18/11/2026** |
 |          13 | WBS.8.6.1 (R3) — Regression performance/stabilità post-R3                          |                        3 | Alice                   | 10              | **16/11/2026** |  **18/11/2026** |
-|          14 | WBS.7.4.1 (R3) — Submission aggiornamento R3 sugli store                           |                        3 | Alice                   | 12, 13          | **19/11/2026** |  **23/11/2026** |
-|          15 | WBS.7.4.2 (R3) — Comunicazione release note e annuncio social                      |                        3 | Alex                    | 12              | **19/11/2026** |  **23/11/2026** |
-|          16 | WBS.8.6.2 (R3) — Verifica privacy/compliance store post-R3                         |                        2 | Alex                    | 15              | **24/11/2026** |  **25/11/2026** |
-|          17 | Finish — Finish                                                                    |                        0 | —                       | 14              | **01/12/2026** |  **01/12/2026** |
+|          14 | WBS.7.4.2 (R3) — Comunicazione release note e annuncio social                      |                        3 | Alex                    | 12              | **19/11/2026** |  **23/11/2026** |
+|          15 | WBS.8.6.2 (R3) — Verifica privacy/compliance store post-R3                         |                        2 | Alex                    | 14              | **24/11/2026** |  **25/11/2026** |
+|          16 | WBS.7.4.1 (R3) — Submission aggiornamento R3 sugli store                           |                        3 | Alice                   | 15      | **26/11/2026** |  **30/11/2026** |
+|          17 | Finish — Finish                                                                    |                        0 | —                       | 16              | **01/12/2026** |  **01/12/2026** |

@@ -33,10 +33,9 @@ Comprende tutte le funzionalità necessarie per il lancio iniziale: mappa, event
 | WBS.1.2.1 | Progettazione e sviluppo mappa interattiva | 20/28/36 | **28 h** | **10 gg** | Alice | — |
 | WBS.1.2.2 | Raccolta coordinate geografiche dai locali | 4/6/8 | **6 h** | **2 gg** | Alex | Dip. da WBS.1.1.2 |
 | WBS.1.2.3 | Caricamento locali come punti in mappa | 16/20/28 | **21 h** | **7 gg** | Alex | Dip. da WBS.1.2.2 |
-| WBS.1.2.4 | Controllo principi di accessibilità | 8/12/16 | **12 h** | **4 gg** | Alex | Dip. da WBS.1.2.3 |
 | WBS.1.3.1 | Definizione e caricamento tipologie locali | 8/10/12 | **10 h** | **4 gg** | Alice | — |
 | WBS.1.3.2 | Sviluppo sistema filtraggio locali | 12/16/20 | **16 h** | **6 gg** | Alex | Dip. da WBS.1.3.1 e WBS.1.2.3 |
-| **Totale RBS.1** | | | **157 h** | **55 gg** | | Alice: 66h (24 gg), Alex: 91h (31 gg) |
+| **Totale RBS.1** | | | **145 h** | **51 gg** | | Alice: 66h (24 gg), Alex: 79h (27 gg) |
 | **RBS.2 — Eventi** | | | | | | |
 | WBS.2.1.1 | Creazione modello dati evento | 6/8/10 | **8 h** | **3 gg** | Alice | — |
 | WBS.2.2.1 | Sviluppo operazioni CRUD su eventi | 16/20/24 | **20 h** | **7 gg** | Alice | Dip. da WBS.2.1.1 |
@@ -72,7 +71,7 @@ Comprende tutte le funzionalità necessarie per il lancio iniziale: mappa, event
 | WBS.8.4.1 | Conformità store | 8/12/16 | **12 h** | **4 gg** | Alex | — |
 | WBS.8.5.1 | Rispetto accessibilità base | 8/12/16 | **12 h** | **4 gg** | Alex | — |
 | **Totale RBS.8** | | | **60 h** | **20 gg** | | Alice: 24h (8 gg), Alex: 36h (12 gg) |
-| **Totale Release 1** | | | **511 h** | **177 gg** | | Alice: 281h (98 gg), Alex: 230h (79 gg) |
+| **Totale Release 1** | | | **499 h** | **173 gg** | | Alice: 281h (98 gg), Alex: 218h (75 gg) |
 
 ### Release 2 · Coupon/Offerte (R2)
 Copre il pacchetto funzionale previsto per la seconda release (RBS.3).
@@ -131,10 +130,10 @@ Include l’intero blocco recensioni e moderazione previsto da RBS.4.
 
 | Release | Ore totali | Giorni effettivi | Alice (h / gg) | Alex (h / gg) |
 |---------|------------|------------------|-----------------|----------------|
-| R1 | **511 h** | **177 gg** | 281 h / 98 gg | 230 h / 79 gg |
+| R1 | **499 h** | **173 gg** | 281 h / 98 gg | 218 h / 75 gg |
 | R2 | **116 h** | **41 gg** | 56 h / 20 gg | 60 h / 21 gg |
 | R3 | **156 h** | **56 gg** | 77 h / 27 gg | 79 h / 29 gg |
-| **Totale** | **783 h** | **274 gg** | 414 h / 145 gg | 369 h / 129 gg |
+| **Totale** | **771 h** | **270 gg** | 414 h / 145 gg | 357 h / 125 gg |
 
 ## Previsione temporale (sintesi)
 

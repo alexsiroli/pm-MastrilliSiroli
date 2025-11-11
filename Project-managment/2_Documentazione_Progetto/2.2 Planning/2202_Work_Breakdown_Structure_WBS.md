@@ -13,7 +13,6 @@ La mappa orienta gli utenti nella città mostrando i luoghi più rilevanti con l
 - WBS.1.2.1 Progettazione e sviluppo di una mappa con grafica intuitiva e gesture di navigazione base. 
 - WBS.1.2.2 Raccolta coordinate geografiche di ogni locale ricavate dall'indirizzo del locale.
 - WBS.1.2.3 Sviluppo di un sistema di caricamento dei locali come punti nella mappa.
-- WBS.1.2.4 Controllo che vengano rispettati i principi fondamentali di accessibilità.
 
 ### RBS.1.3 — Tipologie/filtri
 - WBS.1.3.1 Definizione delle tipologie di un locale: ristorante, pizzeria, sushi, bar, discoteca, sala giochi, cinema e teatro.
