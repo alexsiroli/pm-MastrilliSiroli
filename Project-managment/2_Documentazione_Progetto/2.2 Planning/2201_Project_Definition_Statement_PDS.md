@@ -1,77 +1,121 @@
 # 2201 — Project Definition Statement (PDS) — Ziradò
 
-Scopo: base di riferimento pre‑esecutiva per R1, con deliverable, piano, risorse, rischi e metriche in linea con POS, RBS e WBS.
+## 1) Scopo e motivazione
 
-## Metadati
-- Progetto: Ziradò — Versione/Data: v1.1 / 2025‑11‑07 — Autori: Alex Siroli, Alice Mastrilli — Approvazioni: Docente
+Realizzare un’**app mobile** che unifichi **mappa dei locali e relative informazioni**, **bacheca eventi**, **coupon specific per locale** e **sistema di recensioni** per Cesena, incrementando partecipazione e ricavi degli operatori locali.
 
-## 1) Visione e Obiettivi
-- Visione: app unica per scoprire e vivere Cesena, aumentando l’engagement di residenti e turisti e la visibilità/ricavi dei locali.
-- Release e ambito: R1 — mappa + eventi; R2 — coupon; R3 — recensioni con moderazione.
-- Target temporali: R1 pubblicata sugli store entro 31/07/2026; R2 entro 6 mesi da R1; R3 entro 6 mesi da R2.
+**Motivazione**: mancanza di un canale unico affidabile e aggiornato.
 
-## 2) Deliverable e Requisiti
-- Deliverable principali: App mobile (iOS/Android), Backend/API, Portale Admin, Sistema Notifiche, Contenuti iniziali, Documentazione.
-- Ambito funzionale (RBS):
-  - RBS.1 Mappa (schede locali, geolocalizzazione, filtri/tipologie)
-  - RBS.2 Eventi (dettaglio, caricamento da gestori, calendario/lista con filtri)
-  - RBS.3 Coupon/Offerte (R2)
-  - RBS.4 Recensioni con moderazione (R3)
-  - RBS.5 Backend/API e Admin (autenticazione/ruoli, operazioni ordinarie)
-  - RBS.6 Sistema di Notifiche
-  - RBS.7 Requisiti non funzionali (performance, stabilità, privacy, store, accessibilità)
+## 2) Obiettivi misurabili
 
-### 2.1 Criteri di accettazione di alto livello
-- Performance/stabilità: P95 < 2s sulle viste principali; crash/sessione < 1%.
-- Store compliance: superamento validazioni automatiche e requisiti 100% soddisfatti (iOS/Android).
-- Dati/geo: copertura iniziale ≥ 75% dei locali d’interesse; accuratezza media geolocalizzazione < 50m.
-- Eventi/coupon: pubblicazione entro 5 minuti dalla creazione da parte dei gestori; limiti di utilizzo rispettati.
-- Notifiche: ricezione confermata su iOS e Android (≥ 5 device test) e preferenze utente selezionabili.
-- Privacy/GDPR: consensi espliciti raccolti; policy trasparenti; minimizzazione dati.
-- Accessibilità: rispetto WCAG 2.1 AA sulle viste principali.
+* **R1** attiva **entro 31/07/2026**, **R2** entro i 3 mesi successivi al lancio di R!, **R3** entro i 3 mesi successivi a R2.
+* **Qualità:** Il tempo di caricamento del 95% delle schermate principali è inferiore a 2 secondi e il tasso di crash per sessione è inferiore all’1%.
+* **Adozione:** 5.000 download e rating ≥ 4.0 entro 12 mesi in entrambi gli store di lancio.
+* **Ecosistema esercenti:** 75% locali centro storico a 12 mesi.
+* **Economia:** break-even di cassa entro 6 mesi dal lancio.
 
-## 3) WBS (Sintesi) e Dizionario
-- Struttura WBS: vedi 2202 (organizzazione per RBS → WBS.n.m).
-- Macro‑pacchetti: 1 PM, 2 UX/UI, 3 Backend/API, 4 Mobile App, 5 Admin, 6 Content Onboarding, 7 QA, 8 Release/Store, 9 Marketing.
-- Dizionario: per ciascun task DoR/DoD, owner e dipendenze (rif. 2202).
+## 3) Scope
 
-## 4) Pianificazione
-- Milestone R1: JPPS; Freeze scope R1; Beta interna; Submission store; Go‑Live entro 31/07/2026.
-- Milestone R2/R3: pianificazione e rilascio entro +6 mesi ciascuna da release precedente.
-- Critical Path R1: Backend → Mobile → Integrazione → QA → Store (rif. 2203).
+* **R1:** Mappa + schede locali, eventi (CRUD, calendario/lista/filtri), login/ruoli, admin, notifiche base, publishing store, requisiti non funzionali.
+* **R2:** **Coupon/offerte** e notifiche dedicate.
+* **R3:** **Recensioni** (tramite voti o descrizione testuale) con **moderazione** e notifiche correlate.
 
-### 4.1 Dipendenze esterne
-Policy store, limiti free tier mappe, disponibilità/risposta esercenti e referenti locali, accesso a dati/asset. Alternative: ottimizzazione asset, caching client, stage‑rollout, spostamento feature non critiche.
+## 4) Deliverable principali //TODO non sono ovvi?
 
-## 5) Risorse
-- Team: 2 persone, capacità media 20h/sett ciascuno. Competenze: mobile/UX; backend/infra. Supporto tester ad hoc.
+| **Release** | **Deliverable**            | **Criteri di accettazione**                                                                                                |
+| ----------- | -------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| R1          | App mobile + backend/admin | Store build approvate; mappa con ≥75% locali; eventi CRUD e filtri; login/ruoli; p95<2s; crash<1%; notifiche testate su 5 device |
+| R2          | Coupon + notifiche         | CRUD coupon; consumo in presenza; push entro 5’ dal publish; regression OK                                                       |
+| R3          | Recensioni + moderazione   | Voti per tipologia (≥5 domande); testi con segnalazioni; interfaccia admin gestione segnalazioni; regression OK                  |
 
-## 6) Costi e Budget
-- Costi vivi: ~35–50€ setup + 10€/mese hosting; mappe in free tier; extra 0–50€.
-- Valorizzazione ore interne (fuori bilancio corso): ~300h → 7.500€ (25€/h). Riserva gestionale: 10%.
+## 5) Vincoli
 
-## 7) Rischi e Mitigazioni
-- Adozione bassa / concorrenza social → partnership con locali/Comune, piano contenuti, campagne mirate.
-- Review store ritardata → buffer 2 settimane, beta test anticipato, check pre‑submission.
-- Contenuti scarsi / poco attrattivi → outreach esercenti, linee guida contenuti, automazione ingest.
-- Compliance GDPR → privacy policy, minimizzazione dati, revisione consensi.
+* **Tempo:** rispetto del calendario Gantt (documento 2203), periodi **24/12/2025→07/01/2025** e **01/04/2026→08/04/2026** esclusi.
+* **Team:** 2 persone, **15 h/sett** ciascuno.
+* **Budget diretto:**  circa **404 €**/primo anno + pubblicità di lancio (dettagli nel docuemnto 2205).
+* **Store policy/GDPR** obbligatorie per la pubblicazione.
 
-## 8) Governance e Comunicazione
-- Stand‑up settimanale; review quindicinale; status bisettimanale a sponsor; decision log nel repo.
+## 6) Assunzioni chiave
 
-## 9) Metriche di Successo
-- Adozione: ≥ 5.000 download cumulati e rating medio ≥ 4.0/5 nei primi 12 mesi.
-- Engagement esercenti: 75% dei locali del centro storico presenti entro 12 mesi; ≥ 20% dei locali pubblica eventi/coupon con cadenza mensile.
-- Qualità tecnica: P95 < 2s; crash/sessione < 1%.
-- Retention: ≥ 25% utenti attivi a D30.
-- Ricavi: ≥ €10.000 nel primo anno; break‑even entro 12 mesi dal rilascio.
+* Collaborazione degli **esercenti** per la fornitura e l’aggiornamento dei contenuti.
+* Quote **Firebase** e **Mappe** adeguate ai volumi di utenti e dati previsti.
+* **Supporto istituzionale minimo** (Comune) per la promozione e la visibilità del progetto.
+* **Compatibilità cross-platform** stabile (iOS/Android) garantita dai framework scelti.
+* Accesso continuativo agli strumenti di sviluppo (**Firebase, GitHub, IDE, API mappe**) senza interruzioni o modifiche di licenza.
+* Permanenza dei membri del team: **Alex e Alice** restano attivamente coinvolti per l’intera durata del progetto.
 
-## 10) Baseline e Change Control
-- Baseline scope/tempo/costi approvate; SCR (2303) per modifiche; aggiornamento Gantt/budget post approvazione.
+## 7) Stakeholder e governance
 
-## 11) Approvazioni
-| Ruolo | Nome | Firma | Data |
-|---|---|---|---|
-| Sponsor | Docente | — | 2025‑11‑07 |
-| PM | Alex Siroli | — | 2025‑11‑07 |
-| PM | Alice Mastrilli | — | 2025‑11‑07 |
+| **Ruolo**                       | **Nome**  | **Responsabilità**                      |
+| ------------------------------- | --------- | --------------------------------------- |
+| **PM / Responosabile Frontend**      | **Alex**  | Piano, scope, UX, store, sponsor/social |
+| **Tech Lead / Responsabile Backend** | **Alice** | Architettura, sicurezza, API, build     |
+| **Esercenti pilota**            | — | Dati locali, eventi, coupon             |
+| **Sponsor/Comune**              | Comune di Cesena       | Co-marketing, visibilità                |
+| **Utenti finali**               | —         | Feedback, rating store                  |
+
+**RACI sintetico**
+
+| **Attività**             | **R** | **A** | **C**     | **I**     |
+| ------------------------ | ----- | ----- | --------- | --------- |
+| Pianificazione e obiettivi del progetto | Alex            | Alex                 | Alice                | Sponsor                     |
+| Struttura tecnica e sicurezza           | Alice           | Alice                | Alex                 | —                           |
+| Grafica, interfaccia e contenuti        | Alex            | Alex, Alice                 | Esercenti            | Utenti                      |
+| Pubblicazione sugli store               | Alex            | Alex                 | Alice                | Sponsor, Esercenti                     |
+| Comunicazione e social media            | Alex            | Alex                 | Sponsor, Alice             | Esercenti                   |
+| Regole sulla privacy e GDPR             | Alice            | Alex                | —                    | Sponsor                     |
+
+*(A=Approva · R=Responsabile · C=Consultato · I=Informato)*
+
+## 9) Piano temporale e milestone
+
+| **Milestone**               | **Data**       |
+| --------------------------- | -------------- |
+| Start R1                    | 01/12/2025     |
+| Feature complete R1         | 20/06/2026     |
+| Go-Live R1 (store approved) | **31/07/2026** |
+| Start R2                    | 01/08/2026     |
+| Go-Live R2                  | 16/09/2026     |
+| Start R3                    | 15/10/2026     |
+| Go-Live R3                  | 30/11/2026     |
+
+
+// TODO - elimino i successivi? 
+
+## 10) Qualità e accettazione
+
+* **SLO**: p95<2s; crash<1%; push entro 5’.
+* **Test**: smoke + regression per release; **RBS.8.1–8.2**.
+* **UAT**: gruppo pilota (≥20 esercenti + 30 utenti) prima della submission.
+* **Accessibilità**: WCAG 2.1 AA su viste principali.
+
+## 11) Compliance e privacy
+
+* **GDPR**: consensi espliciti, informative trasparenti, DPA con fornitori; data minimization; diritto all’oblio.
+* **Store**: conformità linee guida App Store/Google Play; age rating; privacy nutrition labels.
+* **Log & audit** per azioni di admin/moderazione.
+
+## 12) Comunicazione e reporting
+
+* **Stand-up** settimanale (30’) e **Review** bisettimanale (60’).
+* **Report mensile**: avanzamento, rischi (2206), budget (2205), metriche.
+* **Canali**: repo + board Kanban + drive condiviso.
+
+## 13) Budget e procurement
+
+* **Diretti:** 404 € (dev account, dominio, hosting base) + ADV lancio (150 €).
+* **Valorizzazione lavoro founder:** 19.575 € (non cassa).
+* **Procurement:** account developer, dominio, servizi cloud (quota monitorata).
+
+## 14) Gestione cambi (Change Control)
+
+* **Scope Change Request** **(Form 2303)**: descrizione, beneficio, impatto su tempi/costi/qualità, approvazione PM.
+* Solo **Must/Should** per la release corrente; il resto in backlog R+1.
+
+## 15) Metriche di successo (KPI)
+
+* **Adozione:** download, utenti attivi D1/D7/D30.
+* **Qualità:** crash rate, p95, errori API.
+* **Contenuti:** # eventi/mese, % schede complete.
+* **Business:** ricavi sponsor/ADV, CTR push, lead generati.
+
