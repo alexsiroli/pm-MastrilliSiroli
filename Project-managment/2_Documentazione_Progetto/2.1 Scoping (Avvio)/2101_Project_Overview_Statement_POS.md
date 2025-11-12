@@ -14,7 +14,7 @@ Cesena non dispone di un canale digitale unico, affidabile e aggiornato per scop
 ## 2) Goal del Progetto
 Progettare, sviluppare e lanciare entro luglio 2026 un’app mobile che concentri in un’unica interfaccia eventi, offerte e recensioni, aumentando l’engagement di residenti e turisti e generando nuovi flussi di ricavo per gli operatori locali.
 
-## 3) Obiettivi (criteri S.M.A.R.T.)
+## 3) Obiettivi 
 
 - **Lancio sugli store della prima release entro il 31/07/2026** — pubblicazione approvata su App Store e Google Play; Misura: distanza tra data di release prevista e release effettiva.
 - **Funzionalità per release** — Release 1 (R1): mappa geolocalizzata con i locali d'interesse e calendario eventi filtrabile; Release 2 (R2): coupon riscattabili; Release 3 (R3): recensioni con moderazione base; Misura: R2 deve essere rilasciata entro 3 mesi da R1; R3 entro 3 mesi da R2.
