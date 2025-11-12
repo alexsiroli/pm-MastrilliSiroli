@@ -19,15 +19,16 @@ I locali che desiderano attivare le prenotazioni sull’app pagheranno un contri
 
 
 **Business Justification:**
+
 Oggi molti locali faticano a prevedere l’affluenza agli eventi: questo genera sale troppo piene o, più spesso, personale e posti inutilizzati. La prenotazione in app riduce l’incertezza, aiuta i locali a pianificare al meglio e offre agli utenti un modo veloce per assicurarsi un posto.
 Ci si aspetta che almeno un terzo dei locali attivi aderisca alla novità, dato il costo molto basso e benefici vantaggiosi. Per il progetto, questo introduce una piccola entrata ricorrente e, soprattutto, aumenta l’utilità percepita dell’app, migliorando l’uso nel tempo.
 
 **Action:**
 
-1. Progettare il funzionamento della prenotazione: definire come un locale imposta la capienza per ciascuna fascia oraria, come l’utente sceglie l’orario e il numero di posti, quali regole di cancellazione applicare e in che tempi inviare la conferma o il rifiuto.
-2. Realizzare l’interfaccia lato cliente nelle schede evento: aggiungere pulsanti e schermate chiare per la prenotazione: selezione fascia oraria e posti e inserimento dello stato della prenotazione (in attesa, confermata, cancellata).
+1. Progettare il funzionamento della prenotazione: definire come un locale imposta la capienza per ciascuna fascia oraria, come l’utente sceglie il numero di posti, quali regole di cancellazione applicare e in che tempi inviare la conferma o il rifiuto.
+2. Realizzare l’interfaccia lato cliente nelle schede evento. Si prevede di aggiungere pulsanti e schermate chiare per la prenotazione con possibilità di inserire il numero di posti da prenotare e visualizzare lo stato della prenotazione (in attesa, confermata, cancellata).
 3. Gestire notifiche di servizio: inviare l'esito della prenotazione e notifiche di variazione dell’evento ai clienti.
-4. Allestire un pannello semplice per i locali: attivazione/disattivazione della prenotazione per i singoli eventi, impostazione delle fasce orarie e dei posti disponibili, vista delle richieste ricevute con possibilità di accettarle/rifiutarle.
+4. Allestire un pannello semplice per i locali: attivazione/disattivazione della prenotazione per i singoli eventi, impostazione dei posti disponibili, vista delle richieste ricevute con possibilità di accettarle/rifiutarle.
 5. Gestire il contributo mensile dei locali: scegliere la modalità di incasso più adatta (abbonamento mensile automatico o fatturazione periodica), aggiornare termini e privacy, e integrare un metodo di pagamento nell'app lato esercente.
 
 
