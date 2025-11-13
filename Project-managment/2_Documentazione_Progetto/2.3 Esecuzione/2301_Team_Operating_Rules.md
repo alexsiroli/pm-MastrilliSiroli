@@ -65,9 +65,9 @@ Per sviluppare nuove idee si segue questo flusso:
 * **Weekly di allineamento:** **venerdì, ore 10:00**, **durata variabile**.
 
  **Agenda tipica:**
-1. Ciascuno mostra quanto implementato in settimana
+1. Ciascuno mostra quanto implementato in settimana.
 2. Applicare **Brainstorming** (se servono idee)
-3. Verifica avanzamento nello schedula, to-do e scadenze
+3. Verifica avanzamento nello schedula, to-do e scadenze-
 
 
 **Meeting ad hoc:**

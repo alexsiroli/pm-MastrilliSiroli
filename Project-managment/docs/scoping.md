@@ -18,7 +18,7 @@ Per definire le caratteristiche e le funzionalità del progetto vengono indette 
 | **Membro**                                     | **Ruolo**                       |
 | ---------------------------------------------- | ------------------------------- |
 | **Alex Siroli**                                | Product Owner & Project Manager |
-| **Alice**                                      | Core Team Member  |
+| **Alice Mastrilli**                                      | Core Team Member  |
 
 ### **Agenda**
 
@@ -46,7 +46,7 @@ Dagli incontri è emerso che:
 - Soglie e early warning: SPI/CPI < 0,9 → azione correttiva; MAU < 60% target → sprint dedicato a growth/UX.
 
 Per la definizione dei requisiti sono stati necessari diversi incontri per mettere a punto le principali funzionalità dell'applicativo. Per avere un'idea ancora più pratica di ciò in cui i locali riscontrano meno pubblico, sono stati intervistati dei gestori di tre diverse tipologie di attività: una sala giochi, un ristorante e una gelateria.
-
+Tali gestori resteranno un punto di riferimento nel corso dello sviluppo, per risolvere eventuali dubbi che possono sorgere nelle fasi successive.
 L'insieme dei requisiti sono stati definiti nel seguente documento:
 📂 **Allegato** **RBS**, **Allegato 1**.
 

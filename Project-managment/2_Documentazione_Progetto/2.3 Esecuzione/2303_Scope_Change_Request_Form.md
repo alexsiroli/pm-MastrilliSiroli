@@ -2,7 +2,7 @@
 
 **Project Name:** Ziradò
 
-**Change Requested By:** Alex e Alice 
+**Change Requested By:** Alice 
 
 **Date Change Requested:** 15/02/2026
 
@@ -33,6 +33,7 @@ Ci si aspetta che almeno un terzo dei locali attivi aderisca alla novità, dato 
 
 
 **Approved By:** Alex (PM)
+
 **Date:** 01/03/2026
 
 ---
