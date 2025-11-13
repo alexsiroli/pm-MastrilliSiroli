@@ -65,12 +65,4 @@ Questa soluzione è **coerente** con il nostro modo di lavorare: Trello rimane *
 
 ---
 
-3. **Metriche chiave**
-
-* **Completamento Sprint** (% scope done), **CFD** (stabilità flusso), **Burndown**, **Lead/Cycle time**, **difetti per release**.
-* **Allarmi**: ticket oltre **due date**, **blocchi >24h**, scostamento dal **percorso critico** (YouTrack).
-
-> Ogni task ha un **ID unico `ZRD-###`** usato in Trello, YouTrack e commit/PR per garantire tracciabilità end-to-end.
-
----
 
