@@ -1,3 +1,8 @@
+---
+layout: page
+title: Scoping
+---
+
 # **Scoping — Ziradò**
 
 ## **Contesto**

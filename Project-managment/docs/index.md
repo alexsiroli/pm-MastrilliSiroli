@@ -1,3 +1,9 @@
+---
+layout: page
+title: Home
+permalink: /
+---
+
 # **PM — Mastrilli & Siroli — Relazione di gestione di progetto**
 
 ## **Introduzione**
