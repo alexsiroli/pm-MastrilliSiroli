@@ -46,8 +46,7 @@ Per garantire un corretto svolgimento delle attività e una comunicazione effici
 ### **Tools**
 
 * **Task management:** la gestione delle attività viene gestita tramite **Trello**, che permette di segnare le singole attività come **card** da spostare nelle diverse colonne (*Backlog → Da fare → In esecuzione → Problemi → Fatto*).
-  Ogni task ha **owner**, **data di inizio**, **data di fine** **breve descrizione con riferimento alla WBS associata**. In caso di problemi o dubbi durante l'esecuzione del task, questo viene spostato in Trello nella colonna dei problemi. Una descrizione più approfondita del problema in questione viene descritta dallo sviluppatire all'interno del file **`problemiAlice.md`** / **`problemiAlex.md`**.
-
+  
 * **Version control:** 
 si lavora in una repo condivisa su **GitHub** con **feature branches + Pull Request**; **CI/CD (GitHub Actions)** verso *staging* e *prod*; test automatici su PR.
 
