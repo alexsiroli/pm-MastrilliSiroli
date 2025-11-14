@@ -30,14 +30,14 @@ Per definire le caratteristiche e le funzionalità del progetto vengono indette 
 * **Descrizione del contesto di Ziradò**
 * **Descrizione degli indicatori di successo**
 * **Descrizione dei deliverable del progetto**
-* **Definizione dei requisiti**
+* ***Definizione dei requisiti**
 * **Scelta del modello PMLC da seguire**
 * **Bozza e approvazione del POS**
 
-### **Sintesi svolgimento**
+## Sintesi svolgimento
 
 Dagli incontri è emerso che: 
-## Contesto e Assunzioni
+### Contesto e Assunzioni
 - Target: cittadini e turisti di Cesena; esercenti e associazioni locali.
 - Vincoli: ambito territoriale iniziale, tempo limitato dell’elaborato, budget minimo, policy store (Apple/Google), GDPR.
 - Assunzioni: disponibilità di contenuti dai locali, sponsorship iniziale da entità locali, mappe con free tier sufficiente, hosting low‑cost.
@@ -54,5 +54,5 @@ Una sintesi delle riunioni, con considerazioni su obbiettivi, criteri di success
 📂 **Allegato 1 – [1-pos.md – Project Overview Statement (POS)]({{ '/attachments/1-pos.md' | relative_url }})**
 
 
-## **Scelta del modello PMLC**
+### Scelta del modello PMLC
 Si è scelto di adottare un modello PMLC **ibrido iterativo-incrementale** con sprint time-boxed e milestone fisse perché permette di mantenere una struttura chiara pur lasciando la flessibilità necessaria ad adattarsi ai feedback e alle incertezze del progetto. Nel nostro caso non puntiamo a rilasci continui, ma a **tre release principali**, ciascuna dedicata all’introduzione di nuove funzionalità significative. Questo approccio è particolarmente adatto perché i requisiti core sono già noti, mentre rimangono elementi da validare legati all’esperienza d’uso e ai contenuti. Essendo il team composto da sole due persone, il modello ibrido consente di lavorare in modo ordinato, senza l’eccessiva rigidità dei modelli lineari ma nemmeno con la frammentazione tipica degli approcci a rilasci molto frequenti. In questo modo possiamo procedere per passi, mantenere il controllo delle milestone e introdurre nuove funzioni in maniera progressiva e sostenibile.

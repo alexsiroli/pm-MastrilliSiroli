@@ -7,11 +7,11 @@ permalink: /launching/
 
 Definiti **scopo, requisiti e piano**, il team è pronto per la fase di *launching*. 
 
-## **Kick-off meeting**
+# **Kick-off meeting**
 
 Viene indetto un **kick-off metting** con lo scopo di discutere delle modalità operative del team. 
 
-## **Regole operative per il team**
+### **Regole operative per il team**
 
 Per garantire un corretto svolgimento delle attività e una comunicazione efficiente tra i membri del team, sono state definite le seguenti regole operative:
 ### **Tools**
@@ -39,9 +39,7 @@ Adottiamo Scrum, con sprint di 1 settimana (lun–ven).
 
 
 
----
-
-## **Problem solving**
+### **Problem solving**
 
 Il team adotta un approccio collaborativo per risolvere i problemi basato sulla regola dei 5 punti di Daniel Couger:
 1. **Definizione del problema**: chi lo rileva descrive *cosa/dove/quando*.
@@ -50,14 +48,13 @@ Il team adotta un approccio collaborativo per risolvere i problemi basato sulla 
 4. **Valutazione e priorità**: sulla base di fattori come impatto, sforzo, rischio e urgenza, si classificano le diverse soluzioni proposte per determinare quale sia la più efficace.
 5. **Piano d’azione**: si decide come implementare la soluzione scelta: chi fa cosa e in quanto tempo. Allineamento con Trello.
 Al termine dello sviluppo della soluzione, si prevede un meeting per commentare il risultato ottenuto. Se non soddisfacente, si torna al punto 2.
----
 
-## **Decision making & consenso** 
+### **Decision making & consenso** 
 L'approccio di decision making che si segue è **collaborativo**: tutte le decisioni vengono prese insieme da Alex e Alice.
 Ogni decisione va registrata in un apposito file chiamato **`DECISION.md`** (contesto, opzioni considerate, scelta e motivazione).
 Se non c’è accordo, si attiva **Conflict Resolution**.
 
-## Conflict Resolution
+### **Conflict Resolution
 
 Quando c’è disaccordo su una decisione/soluzione, o mancano competenze:
 1. Confronto focalizzato Alex–Alice (max 30’).
@@ -65,9 +62,8 @@ Quando c’è disaccordo su una decisione/soluzione, o mancano competenze:
 3. Rivalutazione con i nuovi elementi.
 4. Si procede solo se Alex e Alice concordano.
 
----
 
-## **Gestione cambiamenti di scope**
+### **Gestione cambiamenti di scope**
 
 In data 15/02/2026, durante lo sviluppo della sezione eventi, Alice pensa che si potrebbe aggiungere una sezione **Prenotazioni** per permettere agli utenti di prenotarsi ad un evento. Al fine di documentare questa idea, redige il seguente **Scope Change Request Form**.
 
