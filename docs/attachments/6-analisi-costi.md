@@ -33,7 +33,7 @@ permalink: /attachments/6-analisi-costi/
 | Budget contenuti e ADV | RBS.7.3 | 50 €/mese × 3 mesi | **150** | Promozione social per lancio e due update. |
 | **Totale costi diretti** |  |  | **404** |
 
-### Valorizzazione manodopera founder
+### Valorizzazione manodopera
 Ore totali dal file Stime_e_Fabbisogno_Risorse. Il valore non viene pagato ma rappresenta l'investimento di tempo che dovremmo recuperare per considerarci "in pari".
 
 #### Sintesi per release
