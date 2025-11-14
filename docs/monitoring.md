@@ -23,7 +23,7 @@ Lo sprint dura **1 settimana**; ogni lunedì e venerdì facciamo un allineamento
 
 Anche se con Trello è possibile visualizzare in maniera semplice lo stato di esecuzione del progetto, ogni venerdì, per avere anche un indicatore numerico, si calcola lo **Schedule Performance Index (SPI)**:
 
-### **SPI = EV / PV**
+ **SPI = EV / PV**
 
 - EV (Earned Value): “valore guadagnato”, cioè il lavoro davvero completato fino a oggi, espresso nelle stesse unità della pianificazione (per Ziradò: ore stimate o giorni effettivi da 3h).
 
