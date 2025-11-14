@@ -6,7 +6,7 @@ permalink: /attachments/8-risk-analysis/
 
 # **Analisi Rischi e Mitigazione**
 
-## **1) Metodo e scala di valutazione**
+##  Metodo e scala di valutazione
 
 * **Probabilità (P):** 1 molto bassa · 5 molto alta
 * **Impatto (I):** 1 trascurabile · 5 critico (ritardi > 4 settimane / danno reputazionale / rischio legale)
@@ -16,7 +16,7 @@ permalink: /attachments/8-risk-analysis/
 
 ---
 
-## **3) Registro dei rischi**
+##  Registro dei rischi
 
 | **ID** | **Descrizione**                 | **Causa**                 | **Conseguenza**    | **P** | **I** | **R** | **Owner** | **Strategia** | **Azioni di mitigazione**                                            | **Trigger/Indicatori**      | **Contingenza (fallback)**                            |
 | ------ | ------------------------------- | ------------------------- | ------------------ | ----: | ----: | ----: | --------- | ------------- | -------------------------------------------------------------------------- | --------------------------- | ----------------------------------------------------- |
