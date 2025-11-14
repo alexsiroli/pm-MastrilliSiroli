@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 1-pos.md – Project Overview Statement (POS)
-permalink: /attachments/1-pos.md
+permalink: /attachments/1-pos/
 ---
 
 # **Project Overview Statement (POS) – Ziradò**

@@ -67,10 +67,10 @@ Quando c’è disaccordo su una decisione/soluzione, o mancano competenze:
 
 In data 15/02/2026, durante lo sviluppo della sezione eventi, Alice pensa che si potrebbe aggiungere una sezione **Prenotazioni** per permettere agli utenti di prenotarsi ad un evento. Al fine di documentare questa idea, redige il seguente **Scope Change Request Form**.
 
-📂 **Allegato 9 – [9-scope-change-request.md – Scope Change Request Form]({{ '/attachments/9-scope-change-request.md' | relative_url }})**
+📂 **Allegato 9 – [9-scope-change-request.md – Scope Change Request Form]({{ '/attachments/9-scope-change-request/' | relative_url }})**
 
 Viene quindi indetta una riunione con Alex in cui si discute dell'impatto di questa modifica all'interno del progetto, racchiuso nel seguente documento.
 
-📂 **Allegato 10 – [10-project-impact-statement.md – Project Impact Statement]({{ '/attachments/10-project-impact-statement.md' | relative_url }})**
+📂 **Allegato 10 – [10-project-impact-statement.md – Project Impact Statement]({{ '/attachments/10-project-impact-statement/' | relative_url }})**
 
 Alla luce dei numerosi benefici, Alex decide di approvare la proposta e firma il **Scope Change Request Form** in data 01/03/26. Viene quindi allineato lo schedula.

@@ -1,19 +1,19 @@
 ---
 layout: page
 title: 6-analisi-costi.md – Analisi Costi e Budget
-permalink: /attachments/6-analisi-costi.md
+permalink: /attachments/6-analisi-costi/
 ---
 
 # **Analisi Costi e Budget – Ziradò**
 
 ## Scopo e allineamento
-- Riferimento a [1-pos.md – Project Overview Statement (POS)]({{ '/attachments/1-pos.md' | relative_url }}): break-even entro 12 mesi tramite sponsorship/advertising e vincolo di budget iniziale minimo.
-- Coerenza con [2-rbs.md – Requirements Breakdown Structure (RBS)]({{ '/attachments/2-rbs.md' | relative_url }}) e [4-wbs.md – Work Breakdown Structure (WBS)]({{ '/attachments/4-wbs.md' | relative_url }}): le voci di costo seguono i pacchetti di lavoro effettivamente stimati in [5-stime-e-fabbisogno.md – Stime e Fabbisogno Risorse]({{ '/attachments/5-stime-e-fabbisogno.md' | relative_url }}).
+- Riferimento a [1-pos.md – Project Overview Statement (POS)]({{ '/attachments/1-pos/' | relative_url }}): break-even entro 12 mesi tramite sponsorship/advertising e vincolo di budget iniziale minimo.
+- Coerenza con [2-rbs.md – Requirements Breakdown Structure (RBS)]({{ '/attachments/2-rbs/' | relative_url }}) e [4-wbs.md – Work Breakdown Structure (WBS)]({{ '/attachments/4-wbs/' | relative_url }}): le voci di costo seguono i pacchetti di lavoro effettivamente stimati in [5-stime-e-fabbisogno.md – Stime e Fabbisogno Risorse]({{ '/attachments/5-stime-e-fabbisogno/' | relative_url }}).
 - Campo di applicazione: Release R1–R3 previste nel piano (core experience, coupon, recensioni) e attività di lancio/aggiornamento.
 
 ## Assunzioni economiche
 - Team: Alice (backend/admin) e Alex (frontend/growth); nessun compenso diretto ma valorizziamo le ore per valutare sostenibilità.
-- Metodo di stima: Three-Point (O/M/P) con conversione 15 h/settimana/persona, come da [5-stime-e-fabbisogno.md – Stime e Fabbisogno Risorse]({{ '/attachments/5-stime-e-fabbisogno.md' | relative_url }}).
+- Metodo di stima: Three-Point (O/M/P) con conversione 15 h/settimana/persona, come da [5-stime-e-fabbisogno.md – Stime e Fabbisogno Risorse]({{ '/attachments/5-stime-e-fabbisogno/' | relative_url }}).
 - Tariffa di valorizzazione: 25 €/h (benchmark freelance entry-level in ambito mobile).
 - Periodo considerato: sviluppo delle tre release + 12 mesi di esercizio per coprire hosting e dominio.
 
