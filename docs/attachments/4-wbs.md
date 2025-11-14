@@ -1,10 +1,10 @@
 ---
 layout: page
-title: 4-wbs.md – Work Breakdown Structure (WBS)
+title: Ziradò
 permalink: /attachments/4-wbs/
 ---
 
-# **Work Breakdown Structure (WBS) — Ziradò**
+# **Work Breakdown Structure (WBS)**
 
 ## RBS.1 — Mappa
 La mappa orienta gli utenti nella città mostrando i luoghi più rilevanti con le relative schede.

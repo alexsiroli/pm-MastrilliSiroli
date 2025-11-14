@@ -1,10 +1,10 @@
 ---
 layout: page
-title: 2-rbs.md – Requirements Breakdown Structure (RBS)
+title: Ziradò
 permalink: /attachments/2-rbs/
 ---
 
-# **Requirements Breakdown Structure (RBS) – Ziradò**
+# **Requirements Breakdown Structure (RBS)**
 
 ## Struttura
 

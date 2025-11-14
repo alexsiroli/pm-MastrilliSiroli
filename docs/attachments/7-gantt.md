@@ -1,10 +1,10 @@
 ---
 layout: page
-title: 7-gantt.md – Schedula Gantt
+title: Ziradò
 permalink: /attachments/7-gantt/
 ---
 
-# **Schedula Gantt e Network Diagram — Ziradò**
+# **Schedula Gantt e Network Diagram**
 
 ## **Release 1 — Core Experience (R1)**
 

@@ -1,10 +1,10 @@
 ---
 layout: page
-title: 9-scope-change-request.md – Scope Change Request Form
+title: Ziradò
 permalink: /attachments/9-scope-change-request/
 ---
 
-# **Scope Change Request Form – Ziradò**
+# **Scope Change Request Form**
 
 **Project Name:** Ziradò  
 **Change Requested By:** Alice  

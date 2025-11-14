@@ -1,10 +1,10 @@
 ---
 layout: page
-title: 5-stime-e-fabbisogno.md – Stime e Fabbisogno Risorse
+title: Ziradò
 permalink: /attachments/5-stime-e-fabbisogno/
 ---
 
-# **Stime e Fabbisogno Risorse — Ziradò**
+# **Stime e Fabbisogno Risorse**
 
 ## Metodologia di Stima
 - **Tecnica:** Three-Point (Optimistic / Most Likely / Pessimistic).  

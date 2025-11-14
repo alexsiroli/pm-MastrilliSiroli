@@ -1,10 +1,10 @@
 ---
 layout: page
-title: 8-risk-analysis.md – Analisi Rischi e Mitigazione
+title: Ziradò
 permalink: /attachments/8-risk-analysis/
 ---
 
-# **Analisi Rischi e Mitigazione — Ziradò**
+# **Analisi Rischi e Mitigazione**
 
 ## **1) Metodo e scala di valutazione**
 

@@ -1,10 +1,10 @@
 ---
 layout: page
-title: 3-pds.md – Project Definition Statement (PDS)
+title: Ziradò
 permalink: /attachments/3-pds/
 ---
 
-# **Project Definition Statement (PDS) – Ziradò**
+# **Project Definition Statement (PDS)**
 
 ## 1) Scopo e motivazione
 

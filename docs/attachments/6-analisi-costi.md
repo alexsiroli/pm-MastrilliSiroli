@@ -1,10 +1,10 @@
 ---
 layout: page
-title: 6-analisi-costi.md – Analisi Costi e Budget
+title: Ziradò
 permalink: /attachments/6-analisi-costi/
 ---
 
-# **Analisi Costi e Budget – Ziradò**
+# **Analisi Costi e Budget**
 
 ## Scopo e allineamento
 - Riferimento a [1-pos.md – Project Overview Statement (POS)]({{ '/attachments/1-pos/' | relative_url }}): break-even entro 12 mesi tramite sponsorship/advertising e vincolo di budget iniziale minimo.
