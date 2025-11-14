@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 3-pds.md – Project Definition Statement (PDS)
-permalink: /attachments/3-pds.md
+permalink: /attachments/3-pds/
 ---
 
 # **Project Definition Statement (PDS) – Ziradò**

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 8-risk-analysis.md – Analisi Rischi e Mitigazione
-permalink: /attachments/8-risk-analysis.md
+permalink: /attachments/8-risk-analysis/
 ---
 
 # **Analisi Rischi e Mitigazione — Ziradò**

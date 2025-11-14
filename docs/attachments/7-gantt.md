@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 7-gantt.md – Schedula Gantt
-permalink: /attachments/7-gantt.md
+permalink: /attachments/7-gantt/
 ---
 
 # **Schedula Gantt e Network Diagram — Ziradò**

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 5-stime-e-fabbisogno.md – Stime e Fabbisogno Risorse
-permalink: /attachments/5-stime-e-fabbisogno.md
+permalink: /attachments/5-stime-e-fabbisogno/
 ---
 
 # **Stime e Fabbisogno Risorse — Ziradò**

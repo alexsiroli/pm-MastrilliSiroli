@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 9-scope-change-request.md – Scope Change Request Form
-permalink: /attachments/9-scope-change-request.md
+permalink: /attachments/9-scope-change-request/
 ---
 
 # **Scope Change Request Form – Ziradò**

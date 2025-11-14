@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 6-analisi-costi.md – Analisi Costi e Budget
-permalink: /attachments/6-analisi-costi.md
+permalink: /attachments/6-analisi-costi/
 ---
 
 # **Analisi Costi e Budget – Ziradò**

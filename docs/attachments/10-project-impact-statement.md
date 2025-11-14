@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 10-project-impact-statement.md – Project Impact Statement
-permalink: /attachments/10-project-impact-statement.md
+permalink: /attachments/10-project-impact-statement/
 ---
 
 # **Project Impact Statement – Modulo Prenotazioni**

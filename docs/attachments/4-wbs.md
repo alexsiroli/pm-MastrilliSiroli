@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 4-wbs.md – Work Breakdown Structure (WBS)
-permalink: /attachments/4-wbs.md
+permalink: /attachments/4-wbs/
 ---
 
 # **Work Breakdown Structure (WBS) — Ziradò**
