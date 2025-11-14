@@ -1,3 +1,8 @@
+---
+layout: page
+title: Closing & Acceptance
+---
+
 # **Closing & Acceptance — Ziradò (versione più discorsiva)**
 
 ## **Procedura di accettazione**
@@ -62,3 +67,4 @@ Si prevede, a campione, di recarsi in alcuni locali per ottenere stime sull'effi
 ## **Chiusura del progetto**
 
 Il progetto viene ritenuto concluso soltanto al termine della terza release. 
+

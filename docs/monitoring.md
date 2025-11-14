@@ -1,3 +1,8 @@
+---
+layout: page
+title: Monitoring & Controlling
+---
+
 # **Monitoring & Controlling — Ziradò**
 
 # Sistema di reporting (Ziradò)
@@ -64,5 +69,6 @@ Per i **problemi** adottiamo una doppia traccia molto pratica:
 Questa soluzione è **coerente** con il nostro modo di lavorare: Trello rimane **leggero e visivo**, i file **problemi*.md** tengono memoria ragionata di ciò che abbiamo scoperto, e in riunione del venerdì possiamo **rivedere rapidamente** la colonna Problemi e, quando serve, aprire i file per capire dove eravamo rimasti.
 
 ---
+
 
 
