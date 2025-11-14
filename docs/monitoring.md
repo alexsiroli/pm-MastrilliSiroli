@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Monitoring & Controlling
+permalink: /monitoring/
 ---
-
 # **Monitoring & Controlling — Ziradò**
 
 # Sistema di reporting (Ziradò)

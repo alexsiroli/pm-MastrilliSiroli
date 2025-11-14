@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Launching
+permalink: /launching/
 ---
 # **Launching / Execution — Ziradò**
 

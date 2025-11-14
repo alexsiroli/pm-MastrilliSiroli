@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Scoping
+permalink: /scoping/
 ---
-
 # **Scoping — Ziradò**
 
 ## **Contesto**

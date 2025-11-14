@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Planning
+permalink: /planning/
 ---
-
 # **Planning — Ziradò**
 
 Dopo lo **Scoping**, il team ha obiettivi e funzionalità chiari. Per procedere con **design** e **implementazione** è stata avviata la **pianificazione** al fine di definire le attività da svolgere, stimarne i costi e produrre una schedula che permetta di monitorare l’avanzamento del progetto.

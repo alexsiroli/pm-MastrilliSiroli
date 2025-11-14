@@ -21,9 +21,9 @@ Questo sito raccoglie tutta la documentazione relativa ai processi implementati 
 - **[Risk Analysis](attachments/6-risk-analysis.md)**
 
 **Esecuzione e controllo**
-- **[Launching & Execution](launching.md)**
-- **[Monitoring & Controlling](monitoring.md)**
-- **[Closing](closing.md)**
+- **[Launching & Execution]({{ '/launching/' | relative_url }})**
+- **[Monitoring & Controlling]({{ '/monitoring/' | relative_url }})**
+- **[Closing]({{ '/closing/' | relative_url }})**
 
 ---
 

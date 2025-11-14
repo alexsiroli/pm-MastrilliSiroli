@@ -1,0 +1,34 @@
+-
+  title: Home
+  url: /
+-
+  title: Processi
+  children:
+    - title: Scoping
+      url: /scoping/
+    - title: Planning
+      url: /planning/
+    - title: Launching & Execution
+      url: /launching/
+    - title: Monitoring & Controlling
+      url: /monitoring/
+    - title: Closing & Acceptance
+      url: /closing/
+-
+  title: Allegati
+  children:
+    - title: Project Overview Statement (POS)
+      url: /attachments/1-pos.md
+    - title: Requirements Breakdown Structure (RBS)
+      url: /attachments/2-rbs.md
+    - title: Work Breakdown Structure (WBS)
+      url: /attachments/3-wbs.md
+    - title: Costs Estimation
+      url: /attachments/4-costs-estimation.md
+    - title: Gantt Chart
+      url: /attachments/5-gantt.md
+    - title: Risk Analysis
+      url: /attachments/6-risk-analysis.md
+-
+  title: Contatti
+  url: /#autori

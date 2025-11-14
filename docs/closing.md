@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Closing & Acceptance
+permalink: /closing/
 ---
-
 # **Closing & Acceptance — Ziradò (versione più discorsiva)**
 
 ## **Procedura di accettazione**
