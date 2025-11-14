@@ -1,10 +1,8 @@
 ---
 layout: page
-title: Scoping
+title: Scoping – Ziradò
 permalink: /scoping/
 ---
-# **Scoping — Ziradò**
-
 ## **Contesto**
 
 Ziradò è un'applicazione pensata per mappare locali ed eventi offerti nella città di Cesena, con l’obiettivo di favorire turismo locale e coinvolgimento dei cittadini.
@@ -49,11 +47,11 @@ Per la definizione dei requisiti sono stati necessari diversi incontri per mette
 Tali gestori resteranno un punto di riferimento nel corso dello sviluppo, per risolvere eventuali dubbi che possono sorgere nelle fasi successive.
 L'insieme dei requisiti sono stati definiti nel seguente documento:
 
-📂 **Allegato** **RBS**, **Allegato 1**.
+📂 **Allegato 2 – [2-rbs.md – Requirements Breakdown Structure (RBS)]({{ '/attachments/2-rbs.md' | relative_url }})**
 
 Una sintesi delle riunioni, con considerazioni su obbiettivi, criteri di successo e rischi è disponibile in:
 
-📂 **Allegato** **POS**, **Allegato 2**.
+📂 **Allegato 1 – [1-pos.md – Project Overview Statement (POS)]({{ '/attachments/1-pos.md' | relative_url }})**
 
 
 ## **Scelta del modello PMLC**

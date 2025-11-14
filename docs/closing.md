@@ -1,10 +1,8 @@
 ---
 layout: page
-title: Closing & Acceptance
+title: Closing & Acceptance – Ziradò
 permalink: /closing/
 ---
-# **Closing & Acceptance — Ziradò**
-
 ## **Procedura di accettazione**
 
 Prima di pubblicare l'app, vengono fatti dei test per verificare che tutto funzioni, come previsto anche dai requisiti:
@@ -67,4 +65,3 @@ Si prevede, a campione, di recarsi in alcuni locali per ottenere stime sull'effi
 ## **Chiusura del progetto**
 
 Il progetto viene ritenuto concluso soltanto al termine della terza release. Tuttavia, non si prevede una vera e propria chiusura definitiva ma piuttosto un passaggio dal processo di attivazione di un nuovo servizio al suo mantenimento. 
-

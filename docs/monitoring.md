@@ -1,11 +1,9 @@
 ---
 layout: page
-title: Monitoring & Controlling
+title: Monitoring & Controlling – Ziradò
 permalink: /monitoring/
 ---
-# **Monitoring & Controlling — Ziradò**
-
-# Sistema di reporting (Ziradò)
+## Sistema di reporting (Ziradò)
 
 Per Ziradò adottiamo un approccio **SCRUM appoggiato al Gantt**: il **Gantt** resta la nostra bussola temporale con milestone e dipendenze; **Trello** è lo strumento operativo con cui seguiamo lo sviluppo giorno per giorno. 
 
@@ -42,7 +40,7 @@ Anche se con Trello è possibile visualizzare in maniera semplice lo stato di es
 
 ---
 
-# Issues Log
+## Issues Log
 
 Per i **problemi** adottiamo una doppia traccia:
 
@@ -55,6 +53,5 @@ Per i **problemi** adottiamo una doppia traccia:
    Quando decidiamo insieme cosa fare, la card esce da **Problemi** e rientra in **In esecuzione**. Il problema viene eliminato dal file problemi*Nome*.md e la soluzione adottata viene messa nel file `DECISION.md`
 
 ---
-
 
 
