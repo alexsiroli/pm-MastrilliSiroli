@@ -1,10 +1,10 @@
 ---
 layout: page
-title: 1-pos.md – Project Overview Statement (POS)
+title: 
 permalink: /attachments/1-pos/
 ---
 
-# **Project Overview Statement (POS) – Ziradò**
+# **Project Overview Statement (POS)**
 
 - Progetto: Ziradò
 
