@@ -17,7 +17,7 @@ L’adozione della funzionalità prevede un **contributo simbolico di 1 € al m
 
 ## Impatto sul calendario
 
-Considerato lo schedula di **R1** e la pianificazione dettagliata descritta in [7-gantt.md — Schedula Gantt e Network Diagram]({{ '/attachments/7-gantt.md' | relative_url }}), l’inserimento del modulo Prenotazione richiede un impegno aggiuntivo stimato di **10 giorni lavorativi**.
+Considerato lo schedula di **R1** e la pianificazione dettagliata descritta in [7-gantt.md — Schedula Gantt e Network Diagram]({{ '/attachments/7-gantt/' | relative_url }}), l’inserimento del modulo Prenotazione richiede un impegno aggiuntivo stimato di **10 giorni lavorativi**.
 
 Non è possibile garantire con certezza il completamento di tutte le attività previste (inclusa questa aggiunta) **entro il 31/07/2026**; tuttavia, la modifica viene mantenuta in **R1** poiché ritenuta ad alto valore economico e di prodotto, accettando **un eventuale slittamento del rilascio di 1–2 settimane**.
 

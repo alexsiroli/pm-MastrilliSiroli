@@ -28,9 +28,9 @@ Realizzare un’app **mobile** che unifichi **mappa dei locali e relative inform
 
 ## 4) Vincoli
 
-* **Tempo:** rispetto del calendario Gantt ([7-gantt.md – Schedula Gantt e Network Diagram]({{ '/attachments/7-gantt.md' | relative_url }})), con periodi **24/12/2025–07/01/2026** e **01/04/2026–08/04/2026** esclusi.
+* **Tempo:** rispetto del calendario Gantt ([7-gantt.md – Schedula Gantt e Network Diagram]({{ '/attachments/7-gantt/' | relative_url }})), con periodi **24/12/2025–07/01/2026** e **01/04/2026–08/04/2026** esclusi.
 * **Team:** 2 persone, **15 h/sett** ciascuno.
-* **Budget diretto:** circa **404 €**/primo anno + pubblicità di lancio (dettagli in [6-analisi-costi.md – Analisi Costi e Budget]({{ '/attachments/6-analisi-costi.md' | relative_url }})).
+* **Budget diretto:** circa **404 €**/primo anno + pubblicità di lancio (dettagli in [6-analisi-costi.md – Analisi Costi e Budget]({{ '/attachments/6-analisi-costi/' | relative_url }})).
 * **Store policy/GDPR** obbligatorie per la pubblicazione.
 
 ## 5) Assunzioni chiave

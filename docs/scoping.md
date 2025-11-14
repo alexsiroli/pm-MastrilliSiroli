@@ -47,11 +47,11 @@ Per la definizione dei requisiti sono stati necessari diversi incontri per mette
 Tali gestori resteranno un punto di riferimento nel corso dello sviluppo, per risolvere eventuali dubbi che possono sorgere nelle fasi successive.
 L'insieme dei requisiti sono stati definiti nel seguente documento:
 
-📂 **Allegato 2 – [2-rbs.md – Requirements Breakdown Structure (RBS)]({{ '/attachments/2-rbs.md' | relative_url }})**
+📂 **Allegato 2 – [2-rbs.md – Requirements Breakdown Structure (RBS)]({{ '/attachments/2-rbs/' | relative_url }})**
 
 Una sintesi delle riunioni, con considerazioni su obbiettivi, criteri di successo e rischi è disponibile in:
 
-📂 **Allegato 1 – [1-pos.md – Project Overview Statement (POS)]({{ '/attachments/1-pos.md' | relative_url }})**
+📂 **Allegato 1 – [1-pos.md – Project Overview Statement (POS)]({{ '/attachments/1-pos/' | relative_url }})**
 
 
 ## **Scelta del modello PMLC**
