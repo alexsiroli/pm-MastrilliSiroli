@@ -21,14 +21,22 @@
       url: /attachments/1-pos.md
     - title: Requirements Breakdown Structure (RBS)
       url: /attachments/2-rbs.md
+    - title: Project Definition Statement (PDS)
+      url: /attachments/3-pds.md
     - title: Work Breakdown Structure (WBS)
-      url: /attachments/3-wbs.md
-    - title: Costs Estimation
-      url: /attachments/4-costs-estimation.md
-    - title: Gantt Chart
-      url: /attachments/5-gantt.md
-    - title: Risk Analysis
-      url: /attachments/6-risk-analysis.md
+      url: /attachments/4-wbs.md
+    - title: Stime e Fabbisogno Risorse
+      url: /attachments/5-stime-e-fabbisogno.md
+    - title: Analisi Costi e Budget
+      url: /attachments/6-analisi-costi.md
+    - title: Schedula Gantt
+      url: /attachments/7-gantt.md
+    - title: Analisi Rischi e Mitigazione
+      url: /attachments/8-risk-analysis.md
+    - title: Scope Change Request Form
+      url: /attachments/9-scope-change-request.md
+    - title: Project Impact Statement
+      url: /attachments/10-project-impact-statement.md
 -
   title: Contatti
   url: /#autori

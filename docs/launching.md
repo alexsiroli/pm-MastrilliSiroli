@@ -1,10 +1,8 @@
 ---
 layout: page
-title: Launching
+title: Launching / Execution – Ziradò
 permalink: /launching/
 ---
-# **Launching / Execution — Ziradò**
-
 ## **Launching**
 
 Definiti **scopo, requisiti e piano**, il team è pronto per la fase di *launching*. 
@@ -73,10 +71,10 @@ Quando c’è disaccordo su una decisione/soluzione, o mancano competenze:
 
 In data 15/02/2026, durante lo sviluppo della sezione eventi, Alice pensa che si potrebbe aggiungere una sezione **Prenotazioni** per permettere agli utenti di prenotarsi ad un evento. Al fine di documentare questa idea, redige il seguente **Scope Change Request Form**.
 
-📂 **Allegato:** **Scope Change Request Form** è riportata nell’**Allegato 5**.
+📂 **Allegato 9 – [9-scope-change-request.md – Scope Change Request Form]({{ '/attachments/9-scope-change-request.md' | relative_url }})**
 
 Viene quindi indetta una riunione con Alex in cui si discute dell'impatto di questa modifica all'interno del progetto, racchiuso nel seguente documento.
 
-📂 **Allegato:** **Project Impact Statement** è riportata nell’**Allegato 6**.
+📂 **Allegato 10 – [10-project-impact-statement.md – Project Impact Statement]({{ '/attachments/10-project-impact-statement.md' | relative_url }})**
 
 Alla luce dei numerosi benefici, Alex decide di approvare la proposta e firma il **Scope Change Request Form** in data 01/03/26. Viene quindi allineato lo schedula.
