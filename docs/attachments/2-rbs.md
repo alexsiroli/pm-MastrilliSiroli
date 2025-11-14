@@ -1,6 +1,7 @@
 # 2102 — Requirements Breakdown Structure (RBS) — Ziradò
 
 ## Struttura
+
 | Numero | Titolo | Descrizione | Misurabilità |
 | --- | --- | --- | --- |
 | RBS.1 | **Mappa** | La mappa orienta gli utenti nella città mostrando i luoghi più rilevanti con le relative schede locali. | La mappa contiene il 75% dei locali d'interesse per l'app. |
