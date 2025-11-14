@@ -7,7 +7,7 @@ permalink: /launching/
 
 Definiti **scopo, requisiti e piano**, il team è pronto per la fase di *launching*. 
 
-# **Kick-off meeting**
+## **Kick-off meeting**
 
 Viene indetto un **kick-off metting** con lo scopo di discutere delle modalità operative del team. 
 
@@ -54,7 +54,7 @@ L'approccio di decision making che si segue è **collaborativo**: tutte le decis
 Ogni decisione va registrata in un apposito file chiamato **`DECISION.md`** (contesto, opzioni considerate, scelta e motivazione).
 Se non c’è accordo, si attiva **Conflict Resolution**.
 
-### **Conflict Resolution
+### **Conflict Resolution**
 
 Quando c’è disaccordo su una decisione/soluzione, o mancano competenze:
 1. Confronto focalizzato Alex–Alice (max 30’).
