@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 
+title: Ziradò
 permalink: /attachments/1-pos/
 ---
 

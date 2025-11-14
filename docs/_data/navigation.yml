@@ -18,25 +18,25 @@
   title: Allegati
   children:
     - title: Project Overview Statement (POS)
-      url: /attachments/1-pos.md
+      url: /attachments/1-pos/
     - title: Requirements Breakdown Structure (RBS)
-      url: /attachments/2-rbs.md
+      url: /attachments/2-rbs/
     - title: Project Definition Statement (PDS)
-      url: /attachments/3-pds.md
+      url: /attachments/3-pds/
     - title: Work Breakdown Structure (WBS)
-      url: /attachments/4-wbs.md
+      url: /attachments/4-wbs/
     - title: Stime e Fabbisogno Risorse
-      url: /attachments/5-stime-e-fabbisogno.md
+      url: /attachments/5-stime-e-fabbisogno/
     - title: Analisi Costi e Budget
-      url: /attachments/6-analisi-costi.md
+      url: /attachments/6-analisi-costi/
     - title: Schedula Gantt
-      url: /attachments/7-gantt.md
+      url: /attachments/7-gantt/
     - title: Analisi Rischi e Mitigazione
-      url: /attachments/8-risk-analysis.md
+      url: /attachments/8-risk-analysis/
     - title: Scope Change Request Form
-      url: /attachments/9-scope-change-request.md
+      url: /attachments/9-scope-change-request/
     - title: Project Impact Statement
-      url: /attachments/10-project-impact-statement.md
+      url: /attachments/10-project-impact-statement/
 -
   title: Contatti
   url: /#autori

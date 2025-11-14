@@ -23,6 +23,7 @@ permalink: /attachments/6-analisi-costi/
 - **Riserve/contingenza:** cuscinetto del 10% per assorbire slittamenti su attività di marketing, moderazione o infrastruttura.
 
 ### Costi diretti
+
 | Voce | WBS / Deliverable | Quantità | Costo (€) | Note e allocazione |
 | --- | --- | --- | --- | --- |
 | Apple Developer Program | WBS.7.1 / submission store | 1 canone annuo | **94** | Attiva R1 ma abilita anche R2–R3. |
@@ -33,9 +34,10 @@ permalink: /attachments/6-analisi-costi/
 | **Totale costi diretti** |  |  | **404** |
 
 ### Valorizzazione manodopera founder
-> Ore totali dal file Stime_e_Fabbisogno_Risorse. Il valore non viene pagato ma rappresenta l'investimento di tempo che dovremmo recuperare per considerarci "in pari".
+Ore totali dal file Stime_e_Fabbisogno_Risorse. Il valore non viene pagato ma rappresenta l'investimento di tempo che dovremmo recuperare per considerarci "in pari".
 
 #### Sintesi per release
+
 | Release | Ore Alice | Ore Alex | Ore totali | Valore 25 €/h |
 | --- | --- | --- | --- | --- |
 | R1 – Core | 281 h | 230 h | **511 h** | **12.775 €** |
@@ -44,6 +46,7 @@ permalink: /attachments/6-analisi-costi/
 | **Totale** | **414 h** | **369 h** | **783 h** | **19.575 €** |
 
 ## Budget complessivo e riserve
+
 | Voce | Importo (€) |
 | --- | --- |
 | Valorizzazione manodopera founder | **19.575** | 

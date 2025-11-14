@@ -66,4 +66,4 @@ Dato lo schedula, si procede con il caricamento delle singole attività all'inte
 ## **VII sessione**
 **Scopo:** produrre il Project Definition Statement.
 
-📂 **Allegato 3 – [3-pds.md – Project Definition Statement (PDS)]({{ '/attachments/3-pds.md' | relative_url }})**
+📂 **Allegato 3 – [3-pds.md – Project Definition Statement (PDS)]({{ '/attachments/3-pds/' | relative_url }})**
