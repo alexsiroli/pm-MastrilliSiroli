@@ -8,10 +8,10 @@ permalink: /scoping/
 ## **Contesto**
 
 Ziradò è un'applicazione pensata per mappare locali ed eventi offerti nella città di Cesena, con l’obiettivo di favorire turismo locale e coinvolgimento dei cittadini.
-
 **Non esiste un committente unico**: l'idea è sviluppare da zero un'idea innovativa che poi possa essere effettivamente utilizzata dai gestori di Cesena. Pertanto, i membri del team collaborano attivamente per cercare di capire e individuare al meglio tutti i possibili bisogni e desideri dell’utenza finale del prodotto.
 
 Per definire le caratteristiche e le funzionalità del progetto vengono indette delle specifiche riunioni.
+
 ---
 
 ## **Riunione di definizione del progetto (scoping meeting)**
