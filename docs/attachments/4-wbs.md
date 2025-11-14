@@ -1,4 +1,10 @@
-# 2202 — Work Breakdown Structure (WBS) — Ziradò
+---
+layout: page
+title: 4-wbs.md – Work Breakdown Structure (WBS)
+permalink: /attachments/4-wbs.md
+---
+
+# **Work Breakdown Structure (WBS) — Ziradò**
 
 ## RBS.1 — Mappa
 La mappa orienta gli utenti nella città mostrando i luoghi più rilevanti con le relative schede.

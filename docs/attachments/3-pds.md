@@ -1,4 +1,10 @@
-# 2201 – Project Definition Statement (PDS) – Ziradò
+---
+layout: page
+title: 3-pds.md – Project Definition Statement (PDS)
+permalink: /attachments/3-pds.md
+---
+
+# **Project Definition Statement (PDS) – Ziradò**
 
 ## 1) Scopo e motivazione
 
@@ -22,9 +28,9 @@ Realizzare un’app **mobile** che unifichi **mappa dei locali e relative inform
 
 ## 4) Vincoli
 
-* **Tempo:** rispetto del calendario Gantt (documento 2203), periodi **24/12/2025–07/01/2026** e **01/04/2026–08/04/2026** esclusi.
+* **Tempo:** rispetto del calendario Gantt ([7-gantt.md – Schedula Gantt e Network Diagram]({{ '/attachments/7-gantt.md' | relative_url }})), con periodi **24/12/2025–07/01/2026** e **01/04/2026–08/04/2026** esclusi.
 * **Team:** 2 persone, **15 h/sett** ciascuno.
-* **Budget diretto:** circa **404 €**/primo anno + pubblicità di lancio (dettagli nel documento 2205).
+* **Budget diretto:** circa **404 €**/primo anno + pubblicità di lancio (dettagli in [6-analisi-costi.md – Analisi Costi e Budget]({{ '/attachments/6-analisi-costi.md' | relative_url }})).
 * **Store policy/GDPR** obbligatorie per la pubblicazione.
 
 ## 5) Assunzioni chiave
@@ -70,4 +76,3 @@ Realizzare un’app **mobile** che unifichi **mappa dei locali e relative inform
 | Go-Live R2                  | 16/09/2026     |
 | Start R3                    | 15/10/2026     |
 | Go-Live R3                  | 30/11/2026     |
-

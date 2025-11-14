@@ -1,4 +1,10 @@
-# 2303 – Scope Change Request Form – Ziradò
+---
+layout: page
+title: 9-scope-change-request.md – Scope Change Request Form
+permalink: /attachments/9-scope-change-request.md
+---
+
+# **Scope Change Request Form – Ziradò**
 
 **Project Name:** Ziradò  
 **Change Requested By:** Alice  
@@ -32,4 +38,3 @@ Ci si aspetta che almeno un terzo dei locali attivi aderisca alla novità, dato 
 **Date:** 01/03/2026
 
 ---
-

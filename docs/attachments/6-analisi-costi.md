@@ -1,13 +1,19 @@
-# 2205 – Analisi Costi e Budget – Ziradò
+---
+layout: page
+title: 6-analisi-costi.md – Analisi Costi e Budget
+permalink: /attachments/6-analisi-costi.md
+---
+
+# **Analisi Costi e Budget – Ziradò**
 
 ## Scopo e allineamento
-- Riferimento a POS 2101: break-even entro 12 mesi tramite sponsorship/advertising e vincolo di budget iniziale minimo.
-- Coerenza con RBS 2102 e WBS 2202: le voci di costo seguono i pacchetti di lavoro effettivamente stimati (2204).
+- Riferimento a [1-pos.md – Project Overview Statement (POS)]({{ '/attachments/1-pos.md' | relative_url }}): break-even entro 12 mesi tramite sponsorship/advertising e vincolo di budget iniziale minimo.
+- Coerenza con [2-rbs.md – Requirements Breakdown Structure (RBS)]({{ '/attachments/2-rbs.md' | relative_url }}) e [4-wbs.md – Work Breakdown Structure (WBS)]({{ '/attachments/4-wbs.md' | relative_url }}): le voci di costo seguono i pacchetti di lavoro effettivamente stimati in [5-stime-e-fabbisogno.md – Stime e Fabbisogno Risorse]({{ '/attachments/5-stime-e-fabbisogno.md' | relative_url }}).
 - Campo di applicazione: Release R1–R3 previste nel piano (core experience, coupon, recensioni) e attività di lancio/aggiornamento.
 
 ## Assunzioni economiche
 - Team: Alice (backend/admin) e Alex (frontend/growth); nessun compenso diretto ma valorizziamo le ore per valutare sostenibilità.
-- Metodo di stima: Three-Point (O/M/P) con conversione 15 h/settimana/persona, come da doc 2204.
+- Metodo di stima: Three-Point (O/M/P) con conversione 15 h/settimana/persona, come da [5-stime-e-fabbisogno.md – Stime e Fabbisogno Risorse]({{ '/attachments/5-stime-e-fabbisogno.md' | relative_url }}).
 - Tariffa di valorizzazione: 25 €/h (benchmark freelance entry-level in ambito mobile).
 - Periodo considerato: sviluppo delle tre release + 12 mesi di esercizio per coprire hosting e dominio.
 
@@ -49,4 +55,3 @@
 - **Break-even di cassa (POS):** bastano ~500 € di ricavi sponsorship/ADV entro 6 mesi per coprire i costi diretti, in linea con il criterio del POS.
 - **Break-even valorizzato:** includendo il valore del nostro tempo il progetto "va in pari" dopo 19.575 € di ricavi (21.967 € considerando le riserve). Questa è la soglia che usiamo per valutare se l'iniziativa ripaga il tempo investito dagli startupper.
 - **Monitoraggio per release:** R1 assorbe il 65% del valore del progetto (12.775 €). Ogni rilascio successivo deve portare almeno 3.000 € di entrate nette cumulative per giustificare l'evoluzione funzionale.
-

@@ -1,4 +1,10 @@
-# 2101 — Project Overview Statement (POS) — Ziradò
+---
+layout: page
+title: 1-pos.md – Project Overview Statement (POS)
+permalink: /attachments/1-pos.md
+---
+
+# **Project Overview Statement (POS) – Ziradò**
 
 - Progetto: Ziradò
 

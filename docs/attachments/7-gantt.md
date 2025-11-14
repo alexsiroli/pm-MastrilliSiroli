@@ -1,4 +1,10 @@
-# 2203 — **Schedula Gantt e Network Diagram — Ziradò**
+---
+layout: page
+title: 7-gantt.md – Schedula Gantt
+permalink: /attachments/7-gantt.md
+---
+
+# **Schedula Gantt e Network Diagram — Ziradò**
 
 ## **Release 1 — Core Experience (R1)**
 

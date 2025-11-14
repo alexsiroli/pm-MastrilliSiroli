@@ -1,5 +1,10 @@
-# 2207 — **Analisi Rischi e Mitigazione — Ziradò**
+---
+layout: page
+title: 8-risk-analysis.md – Analisi Rischi e Mitigazione
+permalink: /attachments/8-risk-analysis.md
+---
 
+# **Analisi Rischi e Mitigazione — Ziradò**
 
 ## **1) Metodo e scala di valutazione**
 

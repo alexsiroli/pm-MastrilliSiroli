@@ -1,4 +1,10 @@
-# 2102 — Requirements Breakdown Structure (RBS) — Ziradò
+---
+layout: page
+title: 2-rbs.md – Requirements Breakdown Structure (RBS)
+permalink: /attachments/2-rbs.md
+---
+
+# **Requirements Breakdown Structure (RBS) – Ziradò**
 
 ## Struttura
 
