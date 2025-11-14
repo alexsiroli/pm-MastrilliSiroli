@@ -73,6 +73,8 @@ Comprende tutte le funzionalità necessarie per il lancio iniziale: mappa, event
 | **Totale RBS.8** | | | **60 h** | **20 gg** | | Alice: 24h (8 gg), Alex: 36h (12 gg) |
 | **Totale Release 1** | | | **499 h** | **173 gg** | | Alice: 281h (98 gg), Alex: 218h (75 gg) |
 
+Considerando lo **scope bank** del 10%, si accetta un margine di ritardo di circa 10 giorni.
+
 ### Release 2 · Coupon/Offerte (R2)
 Copre il pacchetto funzionale previsto per la seconda release (RBS.3).
 
@@ -96,6 +98,8 @@ Copre il pacchetto funzionale previsto per la seconda release (RBS.3).
 | WBS.8.6.2 | Verifica privacy/compliance store post-R2 | 4/6/8 | **6 h** | **2 gg** | Alex | Checklist GDPR/Store aggiornata. |
 | **Totale RBS.8 (R2)** | | | **14 h** | **5 gg** | | Alice: 8h (3 gg), Alex: 6h (2 gg) |
 | **Totale Release 2** | | | **116 h** | **41 gg** | | Alice: 56h (20 gg), Alex: 60h (21 gg) |
+
+Considerando lo **scope bank** del 10%, si accetta un margine di ritardo di circa 2 giorni.
 
 ### Release 3 · Recensioni & Moderazione (R3)
 Include l’intero blocco recensioni e moderazione previsto da RBS.4.
@@ -125,6 +129,8 @@ Include l’intero blocco recensioni e moderazione previsto da RBS.4.
 | WBS.8.6.2 | Verifica privacy/compliance store post-R3 | 4/6/8 | **6 h** | **2 gg** | Alex | — |
 | **Totale RBS.8 (R3)** | | | **14 h** | **5 gg** | | Alice: 8h (3 gg), Alex: 6h (2 gg) |
 | **Totale Release 3** | | | **156 h** | **56 gg** | | Alice: 77h (27 gg), Alex: 79h (29 gg) |
+
+Considerando lo **scope bank** del 10%, si accetta un margine di ritardo di circa 3 giorni.
 
 ### Totale complessivo progetto
 

@@ -22,12 +22,15 @@ Vengono indette delle riunioni che coinvolgono Alex e Alice.
 Per stimare le attività di Ziradò è stato adottato un approccio **consensus-based** basato sulla tecnica **Three-Point**. Per ogni task il team ha discusso e annotato tre valori: **Ottimistico (O)**, **Più probabile (M)** e **Pessimistico (P)**. La stima operativa dell’effort è stata calcolata con la **media ponderata**
 **E = (O + 4M + P) / 6**, che fornisce una stima più accurata dei tempi.
 
-Poiché siamo studenti e l’impegno settimanale reale oscilla in base a lezioni ed esami, abbiamo fissato assunzioni realistiche di capacità: **20 h/settimana/persona** e **efficienza 75%**, che equivalgono a **15 h/settimana** di lavoro effettivo. Considerando di lavorare dal lunedì al venerdì, si stima che le ore effettive siano 3 in un giorno. Nel calcolare ore->giorni, queste sono arrotondati per eccesso così da evitare stime troppo ottimistiche.
-è CORRETTA QUESTA MODALITà? FORSE DOVREMMO FARE IL CALENDARIO SENZA CONSIDERARE L'EFFICIENZA.
-pS. Potrebbr avere senso dire che, visto che si richiede un impegno di "sole" 3 ore al giorno, abbiamo pensato di stimare comunque un efficienza pari al 100%. 
-La **distribuzione del lavoro** è stata impostata in modo **equilibrato** tra **backend/API e infrastruttura (Alice)** e **frontend/UI (Alex)**. Avendo entrambi svolto lo stesso corso di studio, si suppone che entrambi abbiano lo stesso background: la ripartizione del lavoro è guidata soprattutto da interesse e continuità sui moduli, non da differenze di skill.
+Poiché siamo studenti e l’impegno settimanale reale oscilla in base a lezioni ed esami, abbiamo fissato assunzioni realistiche di capacità: **20 h/settimana/persona** e **efficienza 75%**, che equivalgono a **15 h/settimana** di lavoro effettivo. Considerando di lavorare dal lunedì al venerdì, si stima che le ore utili siano 3 in un giorno, mentre le effettive siano 4. Nel calcolare il numero di giorni necessario a svolgere una attività (il quale impegno è sempre calcolato in ore), l'operazione _giorni = ore / 3_ queste sono arrotondati per eccesso così da evitare stime troppo ottimistiche.
+Poiché siamo studenti e l’impegno settimanale reale oscilla in base a lezioni ed esami, abbiamo fissato assunzioni realistiche di capacità: **20 h/settimana/persona** e **efficienza 75%**, che equivalgono a **15 h/settimana** di lavoro effettivo. Considerando di lavorare dal lunedì al venerdì, si stima che le ore utili siano 3 in un giorno, mentre le effettive siano 4. Nel calcolare il numero di giorni necessario a svolgere una attività (il quale impegno è sempre calcolato in ore), l'operazione _giorni = ore / 3_ è stata arrotondata per eccesso per evitare stime troppo ottimistiche.
 
-📂 **Allegato:** l’**analisi delle stime** è riportata nell’**Allegato 4**.
+La stima della durata delle attività è riportata nel seguente file:
+📂 **Allegato:** **stime_e_fabbisogno_risorse** è riportata nell’**Allegato 4**.
+
+
+La **distribuzione del lavoro** è stata impostata in modo **equilibrato** tra **backend/API e infrastruttura (Alice)** e **frontend/UI (Alex)**. Avendo entrambi svolto lo stesso corso di studio, si suppone che entrambi abbiano lo stesso background: la ripartizione è guidata soprattutto da interesse e continuità sui moduli, non da differenze di skill.
+
 
 ---
 
@@ -50,14 +53,28 @@ Di seguito è riportato il **Gantt** costruito:
 
 Dato lo schedula, si procede con il caricamento delle singole attività all'interno del software Trello che, adottando una metodologia SCRUM, permette di tenere traccia dello stato di avanzamento delle singole attività.
 È stata prevista una **scope bank** pari al **10%** del tempo totale di progetto per assorbire ritardi e imprevisti.
-AGGIUNGERE Il 10% NELLO SCHEDULA
+
+
 ---
 
 ## **V sessione**
 
 **Scopo:** identificare i **rischi** del progetto e i relativi piani.
 
-* È stato compilato un documento di analisi dei rischi, fondamentale per avere chiaro ciò che potrebbe ostacolare il completamento del progetto.
+È stato compilato un documento di analisi dei rischi, fondamentale per avere chiaro ciò che potrebbe ostacolare il completamento del progetto.
 
-📂 **Allegato:** il **documento di analisi dei rischi** è riportato nell’**Allegato 6**.
-VEDERE SE DOCUMENTO DEI RISCHI è COME QUELLO DI LUCA
+📂 **Allegato:** il **[documento di analisi dei rischi](<../2_Documentazione_Progetto/2.2 Planning/2205_Analisi_Costi_e_Budget.md>)** è riportato nell’**Allegato 6**.
+
+## **VI sessione**
+
+**Scopo:** effettuare un'analisi relativa ai costi diretti e indiretti per lo sviluppo.
+
+È stato compilato il seguente documento:
+
+📂 **Allegato:** il **[documento di analisi dei costi](<../2_Documentazione_Progetto/2.2 Planning/2205_Analisi_Costi_e_Budget.md>)** è riportato nell’**Allegato 6**.
+
+## **VII sessione**
+**Scopo:** produrre il Project Definition Statement.
+
+📂 **Allegato:** il **[Project Definition Statement (PDS).md](<../2_Documentazione_Progetto/2.2 Planning/2201_Project_Definition_Statement_PDS.md>)** è riportato nell’**Allegato 6**.
+

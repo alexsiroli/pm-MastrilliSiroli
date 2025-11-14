@@ -5,13 +5,6 @@
 **Calendario**: lun–ven. **Festività non lavorative ignorate**: **24/12/2025→07/01/2026** e **01/04/2026→08/04/2026**.
 **Start**: **01/12/2025**.
 
-# 2203 — **Schedula Gantt e Network Diagram — Ziradò**
-
-## **Release 1 — Core Experience (R1)**
-
-**Calendario**: lun–ven. **Festività non lavorative ignorate**: **24/12/2025→07/01/2026** e **01/04/2026→08/04/2026**.
-**Start**: **01/12/2025**.
-
 | **Task id** | **Task description**                                                   | **Effort (person-days)** | **Resources allocated** | **Predecessor** | **Start date** | **Finish date** |
 | ----------: | ---------------------------------------------------------------------- | -----------------------: | ----------------------- | --------------- | -------------: | --------------: |
 |           1 | Start                                                                  |                        0 | —                       |                 | **01/12/2025** |  **01/12/2025** |
